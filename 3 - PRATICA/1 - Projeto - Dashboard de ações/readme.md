@@ -45,4 +45,4 @@ Aplique as migrações para configurar o banco de dados com as tabelas definidas
 
 ### Passo 5: Rodar o Servidor de Desenvolvimento
 
-Inicie o servidor de desenvolvimento para testar a aplicação localmente. Use o comando `runserver`.
+Inicie o servidor de desenvolvimento para testar a aplicação localmente. Use o comando `streamlit run main.py `.
