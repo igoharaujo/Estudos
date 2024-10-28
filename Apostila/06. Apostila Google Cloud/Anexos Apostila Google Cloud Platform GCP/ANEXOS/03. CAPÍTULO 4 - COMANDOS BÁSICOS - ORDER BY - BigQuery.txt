@@ -1,0 +1,104 @@
+----- ORDER BY -----
+
+-- ORDER BY COLUNA DE TEXTO
+
+-- a) Em ordem ascendente (crescente):
+
+SELECT
+  *
+FROM Base.clientes
+ORDER BY Nome ASC; -- O ASC é o padrão do ORDER BY, portanto, acrescentá-lo ao código ou não é facultativo
+
+-- b) Em ordem descendente (decrescente):
+
+SELECT
+  *
+FROM Base.clientes
+ORDER BY Nome DESC;
+
+-- ORDER BY COLUNA NUMÉRICA
+
+-- a) Em ordem ascendente (crescente):
+
+SELECT
+  *
+FROM Base.clientes
+ORDER BY ID_Cliente ASC;
+
+-- b) Em ordem descendente (decrescente):
+
+SELECT
+  *
+FROM Base.clientes
+ORDER BY ID_Cliente DESC;
+
+-- ORDER BY COLUNA DE DATA
+
+-- a) Em ordem ascendente (crescente):
+
+SELECT
+  *
+FROM Base.clientes
+ORDER BY Data_Nascimento ASC;
+
+-- b) Em ordem descendente (decrescente):
+
+SELECT
+  *
+FROM Base.clientes
+ORDER BY Data_Nascimento DESC;
+
+-- ORDER BY COM MAIS DE UMA COLUNA
+
+-- a) Em ordem ascendente (crescente):
+
+SELECT
+  *
+FROM Base.clientes
+ORDER BY Nome ASC, Sobrenome ASC;
+
+-- b) Em ordem descendente (decrescente):
+
+SELECT
+  *
+FROM Base.clientes
+ORDER BY Nome DESC, Sobrenome DESC;
+
+-- c) Em ordem ascendente / descendente (mista):
+
+SELECT
+  *
+FROM Base.clientes
+ORDER BY Nome ASC, Sobrenome DESC;
+
+
+-- ORDER BY COM LIMIT / OFFSET
+
+-- a) Em ordem ascendente (crescente):
+
+SELECT
+  *
+FROM Base.clientes
+ORDER BY ID_Cliente ASC
+LIMIT 10;
+
+SELECT
+  *
+FROM Base.clientes
+ORDER BY ID_Cliente ASC
+LIMIT 10 OFFSET 5;
+
+-- b) Em ordem descendente (decrescente):
+
+SELECT
+  *
+FROM Base.clientes
+ORDER BY ID_Cliente DESC
+LIMIT 10;
+
+SELECT
+  *
+FROM Base.clientes
+ORDER BY ID_Cliente DESC
+LIMIT 10 OFFSET 5;
+

@@ -1,0 +1,1073 @@
+[
+    {
+        "titulo": "A Forma da Água",
+        "ano": 2017,
+        "diretor": "Guillermo del Toro",
+        "generos": ["Fantasia", "Drama"],
+        "avaliacao": 7.5,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme"],
+        "elenco": [
+            {"ator": "Sally Hawkins", "idade": 41},
+            {"ator": "Michael Shannon", "idade": 43}
+        ],
+        "bilheteria": {
+            "domestica": 110000000,
+            "internacional": 240000000
+        }
+    },
+    {
+        "titulo": "Green Book: O Guia",
+        "ano": 2018,
+        "diretor": "Peter Farrelly",
+        "generos": ["Biografia", "Drama"],
+        "avaliacao": 8.2,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme"],
+        "elenco": [
+            {"ator": "Viggo Mortensen", "idade": 60},
+            {"ator": "Mahershala Ali", "idade": 45}
+        ],
+        "bilheteria": {
+            "domestica": 85000000,
+            "internacional": 215000000
+        }
+    },
+    {
+        "titulo": "Parasita",
+        "ano": 2019,
+        "diretor": "Bong Joon Ho",
+        "generos": ["Comédia", "Drama", "Thriller"],
+        "avaliacao": 8.6,
+        "pais_origem": "Coreia do Sul",
+        "categorias": ["Melhor Filme"],
+        "elenco": [
+            {"ator": "Song Kang-ho", "idade": 52},
+            {"ator": "Lee Sun-kyun", "idade": 45}
+        ],
+        "bilheteria": {
+            "domestica": 53000000,
+            "internacional": 193000000
+        }
+    },
+    {
+        "titulo": "Nomadland",
+        "ano": 2020,
+        "diretor": "Chloé Zhao",
+        "generos": ["Drama"],
+        "avaliacao": 7.4,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme"],
+        "elenco": [
+            {"ator": "Frances McDormand", "idade": 63},
+            {"ator": "David Strathairn", "idade": 72}
+        ],
+        "bilheteria": {
+            "domestica": 15000000,
+            "internacional": 10000000
+        }
+    },
+    {
+        "titulo": "No Ritmo do Coração",
+        "ano": 2021,
+        "diretor": "Sian Heder",
+        "generos": ["Drama", "Musical"],
+        "avaliacao": 8.1,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme"],
+        "elenco": [
+            {"ator": "Emilia Jones", "idade": 20},
+            {"ator": "Marlee Matlin", "idade": 55}
+        ],
+        "bilheteria": {
+            "domestica": 1000000,
+            "internacional": 1500000
+        }
+    },
+    {
+        "titulo": "Tudo em Todo Lugar ao Mesmo Tempo",
+        "ano": 2022,
+        "diretor": "Dan Kwan",
+        "generos": ["Ação", "Aventura", "Comédia"],
+        "avaliacao": 8.7,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme"],
+        "elenco": [
+            {"ator": "Michelle Yeoh", "idade": 59},
+            {"ator": "Stephanie Hsu", "idade": 32}
+        ],
+        "bilheteria": {
+            "domestica": 75000000,
+            "internacional": 100000000
+        }
+    },
+    {
+        "titulo": "Cisne Negro",
+        "ano": 2010,
+        "diretor": "Darren Aronofsky",
+        "generos": ["Drama", "Suspense"],
+        "avaliacao": 8.0,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Atriz", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Natalie Portman", "idade": 29},
+            {"ator": "Mila Kunis", "idade": 27}
+        ],
+        "bilheteria": {
+            "domestica": 106000000,
+            "internacional": 222000000
+        }
+    },
+    {
+        "titulo": "O Regresso",
+        "ano": 2015,
+        "diretor": "Alejandro G. Iñárritu",
+        "generos": ["Aventura", "Drama", "História"],
+        "avaliacao": 8.0,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Diretor", "Melhor Ator"],
+        "elenco": [
+            {"ator": "Leonardo DiCaprio", "idade": 41},
+            {"ator": "Tom Hardy", "idade": 38}
+        ],
+        "bilheteria": {
+            "domestica": 183000000,
+            "internacional": 349000000
+        }
+    },
+    {
+        "titulo": "A Grande Aposta",
+        "ano": 2015,
+        "diretor": "Adam McKay",
+        "generos": ["Biografia", "Comédia", "Drama"],
+        "avaliacao": 7.8,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Roteiro Adaptado"],
+        "elenco": [
+            {"ator": "Christian Bale", "idade": 41},
+            {"ator": "Steve Carell", "idade": 53}
+        ],
+        "bilheteria": {
+            "domestica": 70000000,
+            "internacional": 63200000
+        }
+    },
+    {
+        "titulo": "Whiplash: Em Busca da Perfeição",
+        "ano": 2014,
+        "diretor": "Damien Chazelle",
+        "generos": ["Drama", "Música"],
+        "avaliacao": 8.5,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Ator Coadjuvante", "Melhor Edição"],
+        "elenco": [
+            {"ator": "Miles Teller", "idade": 27},
+            {"ator": "J.K. Simmons", "idade": 59}
+        ],
+        "bilheteria": {
+            "domestica": 49000000,
+            "internacional": 24000000
+        }
+    },
+    {
+        "titulo": "O Jogo da Imitação",
+        "ano": 2014,
+        "diretor": "Morten Tyldum",
+        "generos": ["Biografia", "Drama", "História"],
+        "avaliacao": 8.0,
+        "pais_origem": "Reino Unido",
+        "categorias": ["Melhor Roteiro Adaptado"],
+        "elenco": [
+            {"ator": "Benedict Cumberbatch", "idade": 38},
+            {"ator": "Keira Knightley", "idade": 29}
+        ],
+        "bilheteria": {
+            "domestica": 91000000,
+            "internacional": 143000000
+        }
+    },
+    {
+        "titulo": "Gravidade",
+        "ano": 2013,
+        "diretor": "Alfonso Cuarón",
+        "generos": ["Drama", "Ficção Científica", "Suspense"],
+        "avaliacao": 7.7,
+        "pais_origem": "Reino Unido",
+        "categorias": ["Melhor Diretor", "Melhor Fotografia"],
+        "elenco": [
+            {"ator": "Sandra Bullock", "idade": 49},
+            {"ator": "George Clooney", "idade": 52}
+        ],
+        "bilheteria": {
+            "domestica": 274000000,
+            "internacional": 449000000
+        }
+    },
+    {
+        "titulo": "A Rede Social",
+        "ano": 2010,
+        "diretor": "David Fincher",
+        "generos": ["Biografia", "Drama"],
+        "avaliacao": 7.7,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Roteiro Adaptado", "Melhor Edição"],
+        "elenco": [
+            {"ator": "Jesse Eisenberg", "idade": 27},
+            {"ator": "Andrew Garfield", "idade": 27}
+        ],
+        "bilheteria": {
+            "domestica": 97000000,
+            "internacional": 127000000
+        }
+    },
+    {
+        "titulo": "O Lado Bom da Vida",
+        "ano": 2012,
+        "diretor": "David O. Russell",
+        "generos": ["Comédia", "Drama", "Romance"],
+        "avaliacao": 7.7,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Atriz"],
+        "elenco": [
+            {"ator": "Bradley Cooper", "idade": 37},
+            {"ator": "Jennifer Lawrence", "idade": 22}
+        ],
+        "bilheteria": {
+            "domestica": 132000000,
+            "internacional": 103000000
+        }
+    },
+    {
+        "titulo": "Bohemian Rhapsody",
+        "ano": 2018,
+        "diretor": "Bryan Singer",
+        "generos": ["Biografia", "Drama", "Música"],
+        "avaliacao": 8.0,
+        "pais_origem": "Reino Unido",
+        "categorias": ["Melhor Ator", "Melhor Edição de Som"],
+        "elenco": [
+            {"ator": "Rami Malek", "idade": 37},
+            {"ator": "Lucy Boynton", "idade": 24}
+        ],
+        "bilheteria": {
+            "domestica": 216000000,
+            "internacional": 688000000
+        }
+    },
+    {
+        "titulo": "Moonlight: Sob a Luz do Luar",
+        "ano": 2016,
+        "diretor": "Barry Jenkins",
+        "generos": ["Drama"],
+        "avaliacao": 7.4,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Roteiro Adaptado"],
+        "elenco": [
+            {"ator": "Mahershala Ali", "idade": 42},
+            {"ator": "Naomie Harris", "idade": 40}
+        ],
+        "bilheteria": {
+            "domestica": 27600000,
+            "internacional": 37700000
+        }
+    },
+    {
+        "titulo": "Spotlight: Segredos Revelados",
+        "ano": 2015,
+        "diretor": "Tom McCarthy",
+        "generos": ["Biografia", "Crime", "Drama"],
+        "avaliacao": 8.1,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Roteiro Original"],
+        "elenco": [
+            {"ator": "Mark Ruffalo", "idade": 48},
+            {"ator": "Michael Keaton", "idade": 64}
+        ],
+        "bilheteria": {
+            "domestica": 45000000,
+            "internacional": 45000000
+        }
+    },
+    {
+        "titulo": "Birdman ou (A Inesperada Virtude da Ignorância)",
+        "ano": 2014,
+        "diretor": "Alejandro G. Iñárritu",
+        "generos": ["Comédia", "Drama"],
+        "avaliacao": 7.7,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Michael Keaton", "idade": 63},
+            {"ator": "Edward Norton", "idade": 45}
+        ],
+        "bilheteria": {
+            "domestica": 42300000,
+            "internacional": 60300000
+        }
+    },
+    {
+        "titulo": "12 Anos de Escravidão",
+        "ano": 2013,
+        "diretor": "Steve McQueen",
+        "generos": ["Biografia", "Drama", "História"],
+        "avaliacao": 8.1,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Atriz Coadjuvante"],
+        "elenco": [
+            {"ator": "Chiwetel Ejiofor", "idade": 36},
+            {"ator": "Lupita Nyong'o", "idade": 30}
+        ],
+        "bilheteria": {
+            "domestica": 56700000,
+            "internacional": 131000000
+        }
+    },
+    {
+        "titulo": "Argo",
+        "ano": 2012,
+        "diretor": "Ben Affleck",
+        "generos": ["Biografia", "Drama", "Suspense"],
+        "avaliacao": 7.7,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Roteiro Adaptado"],
+        "elenco": [
+            {"ator": "Ben Affleck", "idade": 40},
+            {"ator": "Bryan Cranston", "idade": 56}
+        ],
+        "bilheteria": {
+            "domestica": 136000000,
+            "internacional": 96500000
+        }
+    },
+    {
+        "titulo": "O Artista",
+        "ano": 2011,
+        "diretor": "Michel Hazanavicius",
+        "generos": ["Comédia", "Drama", "Romance"],
+        "avaliacao": 7.9,
+        "pais_origem": "França",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Jean Dujardin", "idade": 39},
+            {"ator": "Bérénice Bejo", "idade": 35}
+        ],
+        "bilheteria": {
+            "domestica": 44600000,
+            "internacional": 88000000
+        }
+    },
+    {
+        "titulo": "O Discurso do Rei",
+        "ano": 2010,
+        "diretor": "Tom Hooper",
+        "generos": ["Biografia", "Drama", "História"],
+        "avaliacao": 8.0,
+        "pais_origem": "Reino Unido",
+        "categorias": ["Melhor Filme", "Melhor Ator"],
+        "elenco": [
+            {"ator": "Colin Firth", "idade": 50},
+            {"ator": "Geoffrey Rush", "idade": 59}
+        ],
+        "bilheteria": {
+            "domestica": 138000000,
+            "internacional": 422000000
+        }
+    },
+    {
+        "titulo": "Guerra ao Terror",
+        "ano": 2009,
+        "diretor": "Kathryn Bigelow",
+        "generos": ["Drama", "Guerra", "Suspense"],
+        "avaliacao": 7.6,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Jeremy Renner", "idade": 38},
+            {"ator": "Anthony Mackie", "idade": 31}
+        ],
+        "bilheteria": {
+            "domestica": 17000000,
+            "internacional": 15000000
+        }
+    },
+    {
+        "titulo": "Quem Quer Ser um Milionário?",
+        "ano": 2008,
+        "diretor": "Danny Boyle",
+        "generos": ["Drama", "Romance"],
+        "avaliacao": 8.0,
+        "pais_origem": "Reino Unido",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Dev Patel", "idade": 18},
+            {"ator": "Freida Pinto", "idade": 23}
+        ],
+        "bilheteria": {
+            "domestica": 141000000,
+            "internacional": 377000000
+        }
+    },
+    {
+        "titulo": "Onde os Fracos Não Têm Vez",
+        "ano": 2007,
+        "diretor": "Ethan Coen, Joel Coen",
+        "generos": ["Crime", "Drama", "Suspense"],
+        "avaliacao": 8.1,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Tommy Lee Jones", "idade": 61},
+            {"ator": "Javier Bardem", "idade": 38}
+        ],
+        "bilheteria": {
+            "domestica": 74000000,
+            "internacional": 97000000
+        }
+    },
+    {
+        "titulo": "Os Infiltrados",
+        "ano": 2006,
+        "diretor": "Martin Scorsese",
+        "generos": ["Crime", "Drama", "Suspense"],
+        "avaliacao": 8.5,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Leonardo DiCaprio", "idade": 32},
+            {"ator": "Matt Damon", "idade": 36}
+        ],
+        "bilheteria": {
+            "domestica": 132000000,
+            "internacional": 158000000
+        }
+    },
+    {
+        "titulo": "Crash: No Limite",
+        "ano": 2005,
+        "diretor": "Paul Haggis",
+        "generos": ["Crime", "Drama", "Suspense"],
+        "avaliacao": 7.8,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Roteiro Original"],
+        "elenco": [
+            {"ator": "Sandra Bullock", "idade": 41},
+            {"ator": "Don Cheadle", "idade": 41}
+        ],
+        "bilheteria": {
+            "domestica": 54800000,
+            "internacional": 98200000
+        }
+    },
+    {
+        "titulo": "Menina de Ouro",
+        "ano": 2004,
+        "diretor": "Clint Eastwood",
+        "generos": ["Drama", "Esporte"],
+        "avaliacao": 8.1,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Hilary Swank", "idade": 30},
+            {"ator": "Clint Eastwood", "idade": 74}
+        ],
+        "bilheteria": {
+            "domestica": 100000000,
+            "internacional": 116000000
+        }
+    },
+    {
+        "titulo": "O Senhor dos Anéis: O Retorno do Rei",
+        "ano": 2003,
+        "diretor": "Peter Jackson",
+        "generos": ["Aventura", "Drama", "Fantasia"],
+        "avaliacao": 8.9,
+        "pais_origem": "Nova Zelândia",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Elijah Wood", "idade": 22},
+            {"ator": "Viggo Mortensen", "idade": 45}
+        ],
+        "bilheteria": {
+            "domestica": 377000000,
+            "internacional": 763000000
+        }
+    },
+    {
+        "titulo": "Chicago",
+        "ano": 2002,
+        "diretor": "Rob Marshall",
+        "generos": ["Comédia", "Crime", "Musical"],
+        "avaliacao": 7.2,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Atriz Coadjuvante"],
+        "elenco": [
+            {"ator": "Renée Zellweger", "idade": 33},
+            {"ator": "Catherine Zeta-Jones", "idade": 33}
+        ],
+        "bilheteria": {
+            "domestica": 170000000,
+            "internacional": 136000000
+        }
+    },
+    {
+        "titulo": "Uma Mente Brilhante",
+        "ano": 2001,
+        "diretor": "Ron Howard",
+        "generos": ["Biografia", "Drama"],
+        "avaliacao": 8.2,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Russell Crowe", "idade": 37},
+            {"ator": "Jennifer Connelly", "idade": 31}
+        ],
+        "bilheteria": {
+            "domestica": 170000000,
+            "internacional": 136000000
+        }
+    },
+    {
+        "titulo": "Gladiador",
+        "ano": 2000,
+        "diretor": "Ridley Scott",
+        "generos": ["Ação", "Aventura", "Drama"],
+        "avaliacao": 8.5,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Ator"],
+        "elenco": [
+            {"ator": "Russell Crowe", "idade": 36},
+            {"ator": "Joaquin Phoenix", "idade": 26}
+        ],
+        "bilheteria": {
+            "domestica": 187000000,
+            "internacional": 272000000
+        }
+    },
+    {
+        "titulo": "Beleza Americana",
+        "ano": 1999,
+        "diretor": "Sam Mendes",
+        "generos": ["Drama"],
+        "avaliacao": 8.3,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Kevin Spacey", "idade": 40},
+            {"ator": "Annette Bening", "idade": 41}
+        ],
+        "bilheteria": {
+            "domestica": 130000000,
+            "internacional": 225000000
+        }
+    },
+    {
+        "titulo": "Shakespeare Apaixonado",
+        "ano": 1998,
+        "diretor": "John Madden",
+        "generos": ["Comédia", "Drama", "Romance"],
+        "avaliacao": 7.1,
+        "pais_origem": "Reino Unido",
+        "categorias": ["Melhor Filme", "Melhor Atriz"],
+        "elenco": [
+            {"ator": "Gwyneth Paltrow", "idade": 26},
+            {"ator": "Joseph Fiennes", "idade": 28}
+        ],
+        "bilheteria": {
+            "domestica": 100000000,
+            "internacional": 189000000
+        }
+    },
+    {
+        "titulo": "Titanic",
+        "ano": 1997,
+        "diretor": "James Cameron",
+        "generos": ["Drama", "Romance"],
+        "avaliacao": 7.8,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Leonardo DiCaprio", "idade": 22},
+            {"ator": "Kate Winslet", "idade": 22}
+        ],
+        "bilheteria": {
+            "domestica": 659000000,
+            "internacional": 1542000000
+        }
+    },
+    {
+        "titulo": "O Paciente Inglês",
+        "ano": 1996,
+        "diretor": "Anthony Minghella",
+        "generos": ["Drama", "Romance", "Guerra"],
+        "avaliacao": 7.4,
+        "pais_origem": "Reino Unido",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Ralph Fiennes", "idade": 34},
+            {"ator": "Juliette Binoche", "idade": 32}
+        ],
+        "bilheteria": {
+            "domestica": 78000000,
+            "internacional": 142000000
+        }
+    },
+    {
+        "titulo": "Coração Valente",
+        "ano": 1995,
+        "diretor": "Mel Gibson",
+        "generos": ["Biografia", "Drama", "História"],
+        "avaliacao": 8.3,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Mel Gibson", "idade": 39},
+            {"ator": "Sophie Marceau", "idade": 28}
+        ],
+        "bilheteria": {
+            "domestica": 75600000,
+            "internacional": 135000000
+        }
+    },
+    {
+        "titulo": "Forrest Gump: O Contador de Histórias",
+        "ano": 1994,
+        "diretor": "Robert Zemeckis",
+        "generos": ["Drama", "Romance"],
+        "avaliacao": 8.8,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor", "Melhor Ator"],
+        "elenco": [
+            {"ator": "Tom Hanks", "idade": 38},
+            {"ator": "Robin Wright", "idade": 28}
+        ],
+        "bilheteria": {
+            "domestica": 329000000,
+            "internacional": 678000000
+        }
+    },
+    {
+        "titulo": "A Lista de Schindler",
+        "ano": 1993,
+        "diretor": "Steven Spielberg",
+        "generos": ["Biografia", "Drama", "História"],
+        "avaliacao": 8.9,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Liam Neeson", "idade": 41},
+            {"ator": "Ben Kingsley", "idade": 49}
+        ],
+        "bilheteria": {
+            "domestica": 96000000,
+            "internacional": 225000000
+        }
+    },
+    {
+        "titulo": "Os Imperdoáveis",
+        "ano": 1992,
+        "diretor": "Clint Eastwood",
+        "generos": ["Drama", "Faroeste"],
+        "avaliacao": 8.2,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Clint Eastwood", "idade": 62},
+            {"ator": "Morgan Freeman", "idade": 55}
+        ],
+        "bilheteria": {
+            "domestica": 101000000,
+            "internacional": 158000000
+        }
+    },
+    {
+        "titulo": "O Silêncio dos Inocentes",
+        "ano": 1991,
+        "diretor": "Jonathan Demme",
+        "generos": ["Crime", "Drama", "Suspense"],
+        "avaliacao": 8.6,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor", "Melhor Ator"],
+        "elenco": [
+            {"ator": "Jodie Foster", "idade": 29},
+            {"ator": "Anthony Hopkins", "idade": 53}
+        ],
+        "bilheteria": {
+            "domestica": 130000000,
+            "internacional": 142000000
+        }
+    },
+    {
+        "titulo": "Dança com Lobos",
+        "ano": 1990,
+        "diretor": "Kevin Costner",
+        "generos": ["Aventura", "Drama", "Ocidental"],
+        "avaliacao": 8.0,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Kevin Costner", "idade": 35},
+            {"ator": "Mary McDonnell", "idade": 37}
+        ],
+        "bilheteria": {
+            "domestica": 184000000,
+            "internacional": 240000000
+        }
+    },
+    {
+        "titulo": "Conduzindo Miss Daisy",
+        "ano": 1989,
+        "diretor": "Bruce Beresford",
+        "generos": ["Comédia", "Drama"],
+        "avaliacao": 7.4,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Atriz"],
+        "elenco": [
+            {"ator": "Jessica Tandy", "idade": 80},
+            {"ator": "Morgan Freeman", "idade": 52}
+        ],
+        "bilheteria": {
+            "domestica": 106000000,
+            "internacional": 73900000
+        }
+    },
+    {
+        "titulo": "Rain Man",
+        "ano": 1988,
+        "diretor": "Barry Levinson",
+        "generos": ["Drama"],
+        "avaliacao": 8.0,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor", "Melhor Ator"],
+        "elenco": [
+            {"ator": "Dustin Hoffman", "idade": 51},
+            {"ator": "Tom Cruise", "idade": 26}
+        ],
+        "bilheteria": {
+            "domestica": 178000000,
+            "internacional": 354000000
+        }
+    },
+    {
+        "titulo": "O Último Imperador",
+        "ano": 1987,
+        "diretor": "Bernardo Bertolucci",
+        "generos": ["Biografia", "Drama", "História"],
+        "avaliacao": 7.7,
+        "pais_origem": "Itália",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "John Lone", "idade": 35},
+            {"ator": "Joan Chen", "idade": 26}
+        ],
+        "bilheteria": {
+            "domestica": 43800000,
+            "internacional": 43000000
+        }
+    },
+    {
+        "titulo": "Platoon",
+        "ano": 1986,
+        "diretor": "Oliver Stone",
+        "generos": ["Drama", "Guerra"],
+        "avaliacao": 8.1,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Charlie Sheen", "idade": 21},
+            {"ator": "Tom Berenger", "idade": 37}
+        ],
+        "bilheteria": {
+            "domestica": 138000000,
+            "internacional": 71400000
+        }
+    },
+    {
+        "titulo": "Entre Dois Amores",
+        "ano": 1985,
+        "diretor": "Sydney Pollack",
+        "generos": ["Biografia", "Drama", "Romance"],
+        "avaliacao": 7.2,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Meryl Streep", "idade": 36},
+            {"ator": "Robert Redford", "idade": 48}
+        ],
+        "bilheteria": {
+            "domestica": 87600000,
+            "internacional": 135000000
+        }
+    },
+    {
+        "titulo": "Amadeus",
+        "ano": 1984,
+        "diretor": "Milos Forman",
+        "generos": ["Biografia", "Drama", "Música"],
+        "avaliacao": 8.3,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "F. Murray Abraham", "idade": 45},
+            {"ator": "Tom Hulce", "idade": 31}
+        ],
+        "bilheteria": {
+            "domestica": 52000000,
+            "internacional": 90000000
+        }
+    },
+    {
+        "titulo": "Laços de Ternura",
+        "ano": 1983,
+        "diretor": "James L. Brooks",
+        "generos": ["Comédia", "Drama"],
+        "avaliacao": 7.4,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Shirley MacLaine", "idade": 49},
+            {"ator": "Debra Winger", "idade": 28}
+        ],
+        "bilheteria": {
+            "domestica": 108000000,
+            "internacional": 34900000
+        }
+    },
+    {
+        "titulo": "Gandhi",
+        "ano": 1982,
+        "diretor": "Richard Attenborough",
+        "generos": ["Biografia", "Drama", "História"],
+        "avaliacao": 8.0,
+        "pais_origem": "Reino Unido",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Ben Kingsley", "idade": 38},
+            {"ator": "Candice Bergen", "idade": 36}
+        ],
+        "bilheteria": {
+            "domestica": 52600000,
+            "internacional": 127000000
+        }
+    },
+    {
+        "titulo": "Carruagens de Fogo",
+        "ano": 1981,
+        "diretor": "Hugh Hudson",
+        "generos": ["Biografia", "Drama", "Esporte"],
+        "avaliacao": 7.2,
+        "pais_origem": "Reino Unido",
+        "categorias": ["Melhor Filme", "Melhor Roteiro Original"],
+        "elenco": [
+            {"ator": "Ben Cross", "idade": 33},
+            {"ator": "Ian Charleson", "idade": 31}
+        ],
+        "bilheteria": {
+            "domestica": 58800000,
+            "internacional": 14000000
+        }
+    },
+    {
+        "titulo": "Gente como a Gente",
+        "ano": 1980,
+        "diretor": "Robert Redford",
+        "generos": ["Drama"],
+        "avaliacao": 7.7,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Donald Sutherland", "idade": 45},
+            {"ator": "Mary Tyler Moore", "idade": 43}
+        ],
+        "bilheteria": {
+            "domestica": 54600000,
+            "internacional": 34000000
+        }
+    },
+    {
+        "titulo": "Kramer vs. Kramer",
+        "ano": 1979,
+        "diretor": "Robert Benton",
+        "generos": ["Drama"],
+        "avaliacao": 7.8,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor", "Melhor Ator"],
+        "elenco": [
+            {"ator": "Dustin Hoffman", "idade": 42},
+            {"ator": "Meryl Streep", "idade": 30}
+        ],
+        "bilheteria": {
+            "domestica": 106000000,
+            "internacional": 67600000
+        }
+    },
+    {
+        "titulo": "O Franco Atirador",
+        "ano": 1978,
+        "diretor": "Michael Cimino",
+        "generos": ["Drama", "Guerra"],
+        "avaliacao": 8.1,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Robert De Niro", "idade": 35},
+            {"ator": "Christopher Walken", "idade": 35}
+        ],
+        "bilheteria": {
+            "domestica": 49000000,
+            "internacional": 30000000
+        }
+    },
+    {
+        "titulo": "Noivo Neurótico, Noiva Nervosa",
+        "ano": 1977,
+        "diretor": "Woody Allen",
+        "generos": ["Comédia", "Romance"],
+        "avaliacao": 8.0,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor", "Melhor Atriz"],
+        "elenco": [
+            {"ator": "Woody Allen", "idade": 42},
+            {"ator": "Diane Keaton", "idade": 31}
+        ],
+        "bilheteria": {
+            "domestica": 38200000,
+            "internacional": 19400000
+        }
+    },
+    {
+        "titulo": "Rocky: Um Lutador",
+        "ano": 1976,
+        "diretor": "John G. Avildsen",
+        "generos": ["Drama", "Esporte"],
+        "avaliacao": 8.1,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Sylvester Stallone", "idade": 30},
+            {"ator": "Talia Shire", "idade": 30}
+        ],
+        "bilheteria": {
+            "domestica": 117000000,
+            "internacional": 107000000
+        }
+    },
+    {
+        "titulo": "Um Estranho no Ninho",
+        "ano": 1975,
+        "diretor": "Milos Forman",
+        "generos": ["Drama"],
+        "avaliacao": 8.7,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor", "Melhor Ator"],
+        "elenco": [
+            {"ator": "Jack Nicholson", "idade": 38},
+            {"ator": "Louise Fletcher", "idade": 41}
+        ],
+        "bilheteria": {
+            "domestica": 108000000,
+            "internacional": 112000000
+        }
+    },
+    {
+        "titulo": "O Poderoso Chefão: Parte II",
+        "ano": 1974,
+        "diretor": "Francis Ford Coppola",
+        "generos": ["Crime", "Drama"],
+        "avaliacao": 9.0,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Al Pacino", "idade": 34},
+            {"ator": "Robert Duvall", "idade": 43}
+        ],
+        "bilheteria": {
+            "domestica": 57000000,
+            "internacional": 47000000
+        }
+    },
+    {
+        "titulo": "Golpe de Mestre",
+        "ano": 1973,
+        "diretor": "George Roy Hill",
+        "generos": ["Comédia", "Crime", "Drama"],
+        "avaliacao": 8.3,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Paul Newman", "idade": 48},
+            {"ator": "Robert Redford", "idade": 37}
+        ],
+        "bilheteria": {
+            "domestica": 156000000,
+            "internacional": 30000000
+        }
+    },
+    {
+        "titulo": "O Poderoso Chefão",
+        "ano": 1972,
+        "diretor": "Francis Ford Coppola",
+        "generos": ["Crime", "Drama"],
+        "avaliacao": 9.2,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor", "Melhor Ator"],
+        "elenco": [
+            {"ator": "Marlon Brando", "idade": 48},
+            {"ator": "Al Pacino", "idade": 32}
+        ],
+        "bilheteria": {
+            "domestica": 135000000,
+            "internacional": 133000000
+        }
+    },
+    {
+        "titulo": "Operação França",
+        "ano": 1971,
+        "diretor": "William Friedkin",
+        "generos": ["Ação", "Crime", "Drama"],
+        "avaliacao": 7.7,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Gene Hackman", "idade": 41},
+            {"ator": "Roy Scheider", "idade": 39}
+        ],
+        "bilheteria": {
+            "domestica": 51000000,
+            "internacional": 30000000
+        }
+    },
+    {
+        "titulo": "Patton: Rebelde ou Herói?",
+        "ano": 1970,
+        "diretor": "Franklin J. Schaffner",
+        "generos": ["Biografia", "Drama", "Guerra"],
+        "avaliacao": 8.0,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor", "Melhor Ator"],
+        "elenco": [
+            {"ator": "George C. Scott", "idade": 43},
+            {"ator": "Karl Malden", "idade": 57}
+        ],
+        "bilheteria": {
+            "domestica": 61800000,
+            "internacional": 42000000
+        }
+    },
+    {
+        "titulo": "Perdidos na Noite",
+        "ano": 1969,
+        "diretor": "John Schlesinger",
+        "generos": ["Drama"],
+        "avaliacao": 7.9,
+        "pais_origem": "Estados Unidos",
+        "categorias": ["Melhor Filme", "Melhor Diretor"],
+        "elenco": [
+            {"ator": "Dustin Hoffman", "idade": 31},
+            {"ator": "Jon Voight", "idade": 30}
+        ],
+        "bilheteria": {
+            "domestica": 44900000,
+            "internacional": 17400000
+        }
+    }
+]

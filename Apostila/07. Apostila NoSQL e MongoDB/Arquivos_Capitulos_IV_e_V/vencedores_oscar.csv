@@ -1,0 +1,64 @@
+titulo,ano,diretor,generos[0],generos[1],generos[2],avaliacao,pais_origem,categorias[0],categorias[1],categorias[2],elenco[0].ator,elenco[1].ator,elenco[0].idade,elenco[1].idade,bilheteria.domestica,bilheteria.internacional
+A Forma da Água,2017,Guillermo del Toro,Fantasia,Drama,,7.5,Estados Unidos,Melhor Filme,,,Sally Hawkins,Michael Shannon,41,43,110000000,240000000
+Green Book: O Guia,2018,Peter Farrelly,Biografia,Drama,,8.2,Estados Unidos,Melhor Filme,,,Viggo Mortensen,Mahershala Ali,60,45,85000000,215000000
+Parasita,2019,Bong Joon Ho,Comédia,Drama,Thriller,8.6,Coreia do Sul,Melhor Filme,,,Song Kang-ho,Lee Sun-kyun,52,45,53000000,193000000
+Nomadland,2020,Chloé Zhao,Drama,,,7.4,Estados Unidos,Melhor Filme,,,Frances McDormand,David Strathairn,63,72,15000000,10000000
+No Ritmo do Coração,2021,Sian Heder,Drama,Musical,,8.1,Estados Unidos,Melhor Filme,,,Emilia Jones,Marlee Matlin,20,55,1000000,1500000
+Tudo em Todo Lugar ao Mesmo Tempo,2022,Dan Kwan,Ação,Aventura,Comédia,8.7,Estados Unidos,Melhor Filme,,,Michelle Yeoh,Stephanie Hsu,59,32,75000000,100000000
+Cisne Negro,2010,Darren Aronofsky,Drama,Suspense,,8,Estados Unidos,Melhor Atriz,Melhor Diretor,,Natalie Portman,Mila Kunis,29,27,106000000,222000000
+O Regresso,2015,Alejandro G. Iñárritu,Aventura,Drama,História,8,Estados Unidos,Melhor Diretor,Melhor Ator,,Leonardo DiCaprio,Tom Hardy,41,38,183000000,349000000
+A Grande Aposta,2015,Adam McKay,Biografia,Comédia,Drama,7.8,Estados Unidos,Melhor Roteiro Adaptado,,,Christian Bale,Steve Carell,41,53,70000000,63200000
+Whiplash: Em Busca da Perfeição,2014,Damien Chazelle,Drama,Música,,8.5,Estados Unidos,Melhor Ator Coadjuvante,Melhor Edição,,Miles Teller,J.K. Simmons,27,59,49000000,24000000
+O Jogo da Imitação,2014,Morten Tyldum,Biografia,Drama,História,8,Reino Unido,Melhor Roteiro Adaptado,,,Benedict Cumberbatch,Keira Knightley,38,29,91000000,143000000
+Gravidade,2013,Alfonso Cuarón,Drama,Ficção Científica,Suspense,7.7,Reino Unido,Melhor Diretor,Melhor Fotografia,,Sandra Bullock,George Clooney,49,52,274000000,449000000
+A Rede Social,2010,David Fincher,Biografia,Drama,,7.7,Estados Unidos,Melhor Roteiro Adaptado,Melhor Edição,,Jesse Eisenberg,Andrew Garfield,27,27,97000000,127000000
+O Lado Bom da Vida,2012,David O. Russell,Comédia,Drama,Romance,7.7,Estados Unidos,Melhor Atriz,,,Bradley Cooper,Jennifer Lawrence,37,22,132000000,103000000
+Bohemian Rhapsody,2018,Bryan Singer,Biografia,Drama,Música,8,Reino Unido,Melhor Ator,Melhor Edição de Som,,Rami Malek,Lucy Boynton,37,24,216000000,688000000
+Moonlight: Sob a Luz do Luar,2016,Barry Jenkins,Drama,,,7.4,Estados Unidos,Melhor Filme,Melhor Roteiro Adaptado,,Mahershala Ali,Naomie Harris,42,40,27600000,37700000
+Spotlight: Segredos Revelados,2015,Tom McCarthy,Biografia,Crime,Drama,8.1,Estados Unidos,Melhor Filme,Melhor Roteiro Original,,Mark Ruffalo,Michael Keaton,48,64,45000000,45000000
+Birdman ou (A Inesperada Virtude da Ignorância),2014,Alejandro G. Iñárritu,Comédia,Drama,,7.7,Estados Unidos,Melhor Filme,Melhor Diretor,,Michael Keaton,Edward Norton,63,45,42300000,60300000
+12 Anos de Escravidão,2013,Steve McQueen,Biografia,Drama,História,8.1,Estados Unidos,Melhor Filme,Melhor Atriz Coadjuvante,,Chiwetel Ejiofor,Lupita Nyong'o,36,30,56700000,131000000
+Argo,2012,Ben Affleck,Biografia,Drama,Suspense,7.7,Estados Unidos,Melhor Filme,Melhor Roteiro Adaptado,,Ben Affleck,Bryan Cranston,40,56,136000000,96500000
+O Artista,2011,Michel Hazanavicius,Comédia,Drama,Romance,7.9,França,Melhor Filme,Melhor Diretor,,Jean Dujardin,Bérénice Bejo,39,35,44600000,88000000
+O Discurso do Rei,2010,Tom Hooper,Biografia,Drama,História,8,Reino Unido,Melhor Filme,Melhor Ator,,Colin Firth,Geoffrey Rush,50,59,138000000,422000000
+Guerra ao Terror,2009,Kathryn Bigelow,Drama,Guerra,Suspense,7.6,Estados Unidos,Melhor Filme,Melhor Diretor,,Jeremy Renner,Anthony Mackie,38,31,17000000,15000000
+Quem Quer Ser um Milionário?,2008,Danny Boyle,Drama,Romance,,8,Reino Unido,Melhor Filme,Melhor Diretor,,Dev Patel,Freida Pinto,18,23,141000000,377000000
+Onde os Fracos Não Têm Vez,2007,"Ethan Coen, Joel Coen",Crime,Drama,Suspense,8.1,Estados Unidos,Melhor Filme,Melhor Diretor,,Tommy Lee Jones,Javier Bardem,61,38,74000000,97000000
+Os Infiltrados,2006,Martin Scorsese,Crime,Drama,Suspense,8.5,Estados Unidos,Melhor Filme,Melhor Diretor,,Leonardo DiCaprio,Matt Damon,32,36,132000000,158000000
+Crash: No Limite,2005,Paul Haggis,Crime,Drama,Suspense,7.8,Estados Unidos,Melhor Filme,Melhor Roteiro Original,,Sandra Bullock,Don Cheadle,41,41,54800000,98200000
+Menina de Ouro,2004,Clint Eastwood,Drama,Esporte,,8.1,Estados Unidos,Melhor Filme,Melhor Diretor,,Hilary Swank,Clint Eastwood,30,74,100000000,116000000
+O Senhor dos Anéis: O Retorno do Rei,2003,Peter Jackson,Aventura,Drama,Fantasia,8.9,Nova Zelândia,Melhor Filme,Melhor Diretor,,Elijah Wood,Viggo Mortensen,22,45,377000000,763000000
+Chicago,2002,Rob Marshall,Comédia,Crime,Musical,7.2,Estados Unidos,Melhor Filme,Melhor Atriz Coadjuvante,,Renée Zellweger,Catherine Zeta-Jones,33,33,170000000,136000000
+Uma Mente Brilhante,2001,Ron Howard,Biografia,Drama,,8.2,Estados Unidos,Melhor Filme,Melhor Diretor,,Russell Crowe,Jennifer Connelly,37,31,170000000,136000000
+Gladiador,2000,Ridley Scott,Ação,Aventura,Drama,8.5,Estados Unidos,Melhor Filme,Melhor Ator,,Russell Crowe,Joaquin Phoenix,36,26,187000000,272000000
+Beleza Americana,1999,Sam Mendes,Drama,,,8.3,Estados Unidos,Melhor Filme,Melhor Diretor,,Kevin Spacey,Annette Bening,40,41,130000000,225000000
+Shakespeare Apaixonado,1998,John Madden,Comédia,Drama,Romance,7.1,Reino Unido,Melhor Filme,Melhor Atriz,,Gwyneth Paltrow,Joseph Fiennes,26,28,100000000,189000000
+Titanic,1997,James Cameron,Drama,Romance,,7.8,Estados Unidos,Melhor Filme,Melhor Diretor,,Leonardo DiCaprio,Kate Winslet,22,22,659000000,1542000000
+O Paciente Inglês,1996,Anthony Minghella,Drama,Romance,Guerra,7.4,Reino Unido,Melhor Filme,Melhor Diretor,,Ralph Fiennes,Juliette Binoche,34,32,78000000,142000000
+Coração Valente,1995,Mel Gibson,Biografia,Drama,História,8.3,Estados Unidos,Melhor Filme,Melhor Diretor,,Mel Gibson,Sophie Marceau,39,28,75600000,135000000
+Forrest Gump: O Contador de Histórias,1994,Robert Zemeckis,Drama,Romance,,8.8,Estados Unidos,Melhor Filme,Melhor Diretor,Melhor Ator,Tom Hanks,Robin Wright,38,28,329000000,678000000
+A Lista de Schindler,1993,Steven Spielberg,Biografia,Drama,História,8.9,Estados Unidos,Melhor Filme,Melhor Diretor,,Liam Neeson,Ben Kingsley,41,49,96000000,225000000
+Os Imperdoáveis,1992,Clint Eastwood,Drama,Faroeste,,8.2,Estados Unidos,Melhor Filme,Melhor Diretor,,Clint Eastwood,Morgan Freeman,62,55,101000000,158000000
+O Silêncio dos Inocentes,1991,Jonathan Demme,Crime,Drama,Suspense,8.6,Estados Unidos,Melhor Filme,Melhor Diretor,Melhor Ator,Jodie Foster,Anthony Hopkins,29,53,130000000,142000000
+Dança com Lobos,1990,Kevin Costner,Aventura,Drama,Ocidental,8,Estados Unidos,Melhor Filme,Melhor Diretor,,Kevin Costner,Mary McDonnell,35,37,184000000,240000000
+Conduzindo Miss Daisy,1989,Bruce Beresford,Comédia,Drama,,7.4,Estados Unidos,Melhor Filme,Melhor Atriz,,Jessica Tandy,Morgan Freeman,80,52,106000000,73900000
+Rain Man,1988,Barry Levinson,Drama,,,8,Estados Unidos,Melhor Filme,Melhor Diretor,Melhor Ator,Dustin Hoffman,Tom Cruise,51,26,178000000,354000000
+O Último Imperador,1987,Bernardo Bertolucci,Biografia,Drama,História,7.7,Itália,Melhor Filme,Melhor Diretor,,John Lone,Joan Chen,35,26,43800000,43000000
+Platoon,1986,Oliver Stone,Drama,Guerra,,8.1,Estados Unidos,Melhor Filme,Melhor Diretor,,Charlie Sheen,Tom Berenger,21,37,138000000,71400000
+Entre Dois Amores,1985,Sydney Pollack,Biografia,Drama,Romance,7.2,Estados Unidos,Melhor Filme,Melhor Diretor,,Meryl Streep,Robert Redford,36,48,87600000,135000000
+Amadeus,1984,Milos Forman,Biografia,Drama,Música,8.3,Estados Unidos,Melhor Filme,Melhor Diretor,,F. Murray Abraham,Tom Hulce,45,31,52000000,90000000
+Laços de Ternura,1983,James L. Brooks,Comédia,Drama,,7.4,Estados Unidos,Melhor Filme,Melhor Diretor,,Shirley MacLaine,Debra Winger,49,28,108000000,34900000
+Gandhi,1982,Richard Attenborough,Biografia,Drama,História,8,Reino Unido,Melhor Filme,Melhor Diretor,,Ben Kingsley,Candice Bergen,38,36,52600000,127000000
+Carruagens de Fogo,1981,Hugh Hudson,Biografia,Drama,Esporte,7.2,Reino Unido,Melhor Filme,Melhor Roteiro Original,,Ben Cross,Ian Charleson,33,31,58800000,14000000
+Gente como a Gente,1980,Robert Redford,Drama,,,7.7,Estados Unidos,Melhor Filme,Melhor Diretor,,Donald Sutherland,Mary Tyler Moore,45,43,54600000,34000000
+Kramer vs. Kramer,1979,Robert Benton,Drama,,,7.8,Estados Unidos,Melhor Filme,Melhor Diretor,Melhor Ator,Dustin Hoffman,Meryl Streep,42,30,106000000,67600000
+O Franco Atirador,1978,Michael Cimino,Drama,Guerra,,8.1,Estados Unidos,Melhor Filme,Melhor Diretor,,Robert De Niro,Christopher Walken,35,35,49000000,30000000
+"Noivo Neurótico, Noiva Nervosa",1977,Woody Allen,Comédia,Romance,,8,Estados Unidos,Melhor Filme,Melhor Diretor,Melhor Atriz,Woody Allen,Diane Keaton,42,31,38200000,19400000
+Rocky: Um Lutador,1976,John G. Avildsen,Drama,Esporte,,8.1,Estados Unidos,Melhor Filme,Melhor Diretor,,Sylvester Stallone,Talia Shire,30,30,117000000,107000000
+Um Estranho no Ninho,1975,Milos Forman,Drama,,,8.7,Estados Unidos,Melhor Filme,Melhor Diretor,Melhor Ator,Jack Nicholson,Louise Fletcher,38,41,108000000,112000000
+O Poderoso Chefão: Parte II,1974,Francis Ford Coppola,Crime,Drama,,9,Estados Unidos,Melhor Filme,Melhor Diretor,,Al Pacino,Robert Duvall,34,43,57000000,47000000
+Golpe de Mestre,1973,George Roy Hill,Comédia,Crime,Drama,8.3,Estados Unidos,Melhor Filme,Melhor Diretor,,Paul Newman,Robert Redford,48,37,156000000,30000000
+O Poderoso Chefão,1972,Francis Ford Coppola,Crime,Drama,,9.2,Estados Unidos,Melhor Filme,Melhor Diretor,Melhor Ator,Marlon Brando,Al Pacino,48,32,135000000,133000000
+Operação França,1971,William Friedkin,Ação,Crime,Drama,7.7,Estados Unidos,Melhor Filme,Melhor Diretor,,Gene Hackman,Roy Scheider,41,39,51000000,30000000
+Patton: Rebelde ou Herói?,1970,Franklin J. Schaffner,Biografia,Drama,Guerra,8,Estados Unidos,Melhor Filme,Melhor Diretor,Melhor Ator,George C. Scott,Karl Malden,43,57,61800000,42000000
+Perdidos na Noite,1969,John Schlesinger,Drama,,,7.9,Estados Unidos,Melhor Filme,Melhor Diretor,,Dustin Hoffman,Jon Voight,31,30,44900000,17400000

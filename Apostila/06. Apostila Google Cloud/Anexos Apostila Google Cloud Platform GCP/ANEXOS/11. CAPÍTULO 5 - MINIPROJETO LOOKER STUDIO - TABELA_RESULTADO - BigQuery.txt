@@ -1,0 +1,33 @@
+----- MINIPROJETO LOOKER STUDIO -----
+
+/* 
+KPIs (Ano 2020):
+1) Receita Total 
+2) Custo Total
+3) Lucro Total
+4) Receita Mensal X Custo Mensal
+5) Lucro Mensal
+6) Vendas por Categoria
+7) Vendas por Marca
+8) Vendas por Loja
+9) Vendas por Sexo
+*/
+
+SELECT
+  ped.ID_Pedido AS PEDIDO,
+  ped.Receita_Venda AS RECEITA,
+  ped.Custo_Venda AS CUSTO,
+  ped.Receita_Venda - ped.Custo_Venda AS LUCRO, 
+  ped.Data_Venda AS DATA_DA_VENDA,
+  ped.Qtd_Vendida AS QTDE_VENDIDA,
+  prod.Marca_Produto AS MARCA,
+  cat.Categoria AS CATEGORIA,
+  loj.Loja AS LOJA,
+  REPLACE(REPLACE(cli.Sexo, 'M', 'Masculino'), 'F', 'Feminino') AS SEXO
+FROM Base.pedidos ped
+INNER JOIN Base.produtos prod ON ped.ID_Produto = prod.ID_Produto
+  INNER JOIN Base.categorias cat ON prod.ID_Categoria = cat.ID_Categoria
+INNER JOIN Base.lojas loj ON ped.ID_Loja = loj.ID_Loja
+INNER JOIN Base.clientes cli ON ped.ID_Cliente = cli.ID_Cliente
+WHERE EXTRACT(YEAR FROM ped.Data_Venda) = 2020;
+

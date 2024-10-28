@@ -1,0 +1,71 @@
+[
+{
+  "produto_id": 1,
+  "data_venda": "2024-04-15T18:47:32Z",
+  "preco": 1380.00,
+  "quantidade": 2,
+  "desconto": 100.00,
+  "frete": null,
+  "total": 2660,
+  "forma_pagamento": "Cartão de Crédito",
+  "status": "Concluído",
+  "cliente": {
+    "nome": "João da Silva",
+    "email": "joaosilva@gmail.com",
+    "endereco": {
+      "logradouro": "Rua Um",
+      "numero": "123",
+      "bairro": "Centro",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "CEP": "22222-222"
+    }
+  }
+},
+{
+  "produto_id": 2,
+  "data_venda": "2024-05-23T14:56:58Z",
+  "preco": 1299.00,
+  "quantidade": 3,
+  "desconto": 200.00,
+  "frete": null,
+  "total": 3697,
+  "forma_pagamento": "Cartão de Débito",
+  "status": "Concluído",
+  "cliente": {
+    "nome": "Maria Santos",
+    "email": "mariasantos@gmail.com",
+    "endereco": {
+      "logradouro": "Rua Dois",
+      "numero": "456",
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "CEP": "11111-111"
+    }
+  }
+},
+{
+  "produto_id": 3,
+  "data_venda": "2024-06-01T14:23:55Z",
+  "preco": 2499.00,
+  "quantidade": 1,
+  "desconto": 339.00,
+  "frete": null,
+  "total": 2160,
+  "forma_pagamento": "Pix",
+  "status": "Concluído",
+  "cliente": {
+    "nome": "Ana Souza",
+    "email": "anasouza@gmail.com",
+    "endereco": {
+      "logradouro": "Rua Três",
+      "numero": "789",
+      "bairro": "Centro",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "CEP": "33333-333"
+    }
+  }
+}
+]

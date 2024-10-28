@@ -1,0 +1,238 @@
+[
+  {
+    "diretor": "Adam McKay",
+    "filmes": ["Vice", "Não Olhe Para Cima"]
+  },
+  {
+    "diretor": "Alejandro G. Iñárritu",
+    "filmes": ["Amores Brutos", "Babel", "Biutiful"]
+  },
+  {
+    "diretor": "Alfonso Cuarón",
+    "filmes": ["Filhos da Esperança", "Roma"]
+  },
+  {
+    "diretor": "Anthony Minghella",
+    "filmes": ["O Talentoso Ripley", "Cold Mountain"]
+  },
+  {
+    "diretor": "Barry Jenkins",
+    "filmes": ["Se a Rua Beale Falasse"]
+  },
+  {
+    "diretor": "Barry Levinson",
+    "filmes": ["Bom Dia, Vietnã", "Bugsy"]
+  },
+  {
+    "diretor": "Ben Affleck",
+    "filmes": ["Medo da Verdade", "Atração Perigosa"]
+  },
+  {
+    "diretor": "Bernardo Bertolucci",
+    "filmes": ["O Último Tango em Paris", "O Céu que Nos Protege"]
+  },
+  {
+    "diretor": "Bong Joon Ho",
+    "filmes": ["Memórias de um Assassino", "O Hospedeiro", "Okja"]
+  },
+  {
+    "diretor": "Bruce Beresford",
+    "filmes": ["Crimes do Coração", "Dupla Explosiva"]
+  },
+  {
+    "diretor": "Bryan Singer",
+    "filmes": ["Os Suspeitos", "X-Men", "Superman: O Retorno"]
+  },
+  {
+    "diretor": "Chloé Zhao",
+    "filmes": ["Domando o Destino", "Eternos"]
+  },
+  {
+    "diretor": "Clint Eastwood",
+    "filmes": ["Gran Torino", "A Troca", "Sully"]
+  },
+  {
+    "diretor": "Damien Chazelle",
+    "filmes": ["La La Land", "O Primeiro Homem"]
+  },
+  {
+    "diretor": "Dan Kwan",
+    "filmes": ["Swiss Army Man"]
+  },
+  {
+    "diretor": "Danny Boyle",
+    "filmes": ["Trainspotting", "127 Horas", "Steve Jobs"]
+  },
+  {
+    "diretor": "Darren Aronofsky",
+    "filmes": ["Réquiem para um Sonho", "O Lutador", "Mãe!"]
+  },
+  {
+    "diretor": "David Fincher",
+    "filmes": ["Clube da Luta", "Zodíaco", "Garota Exemplar"]
+  },
+  {
+    "diretor": "David O. Russell",
+    "filmes": ["Trapaça", "O Vencedor", "Joy: O Nome do Sucesso"]
+  },
+  {
+    "diretor": "Ethan Coen, Joel Coen",
+    "filmes": ["Fargo", "Queime Depois de Ler", "Bravura Indômita"]
+  },
+  {
+    "diretor": "Francis Ford Coppola",
+    "filmes": ["Apocalypse Now", "Drácula de Bram Stoker"]
+  },
+  {
+    "diretor": "Franklin J. Schaffner",
+    "filmes": ["Planeta dos Macacos", "Papillon"]
+  },
+  {
+    "diretor": "George Roy Hill",
+    "filmes": ["Butch Cassidy", "O Mundo Segundo Garp"]
+  },
+  {
+    "diretor": "Guillermo del Toro",
+    "filmes": ["O Labirinto do Fauno", "Hellboy", "Crimson Peak"]
+  },
+  {
+    "diretor": "Hugh Hudson",
+    "filmes": ["Revolução", "Greystoke: A Lenda de Tarzan"]
+  },
+  {
+    "diretor": "James Cameron",
+    "filmes": ["O Exterminador do Futuro", "Avatar"]
+  },
+  {
+    "diretor": "James L. Brooks",
+    "filmes": ["Melhor é Impossível", "Nos Bastidores da Notícia"]
+  },
+  {
+    "diretor": "John G. Avildsen",
+    "filmes": ["Karatê Kid", "Inferno na Torre"]
+  },
+  {
+    "diretor": "John Madden",
+    "filmes": ["O Exótico Hotel Marigold", "A Dama de Ferro"]
+  },
+  {
+    "diretor": "John Schlesinger",
+    "filmes": ["Domingo Maldito", "Maratona da Morte"]
+  },
+  {
+    "diretor": "Jonathan Demme",
+    "filmes": ["Filadélfia", "Sob o Domínio do Mal"]
+  },
+  {
+    "diretor": "Kathryn Bigelow",
+    "filmes": ["A Hora Mais Escura", "Detroit em Rebelião"]
+  },
+  {
+    "diretor": "Kevin Costner",
+    "filmes": ["O Mensageiro", "Pacto de Justiça"]
+  },
+  {
+    "diretor": "Martin Scorsese",
+    "filmes": ["Taxi Driver", "Os Bons Companheiros", "O Lobo de Wall Street"]
+  },
+  {
+    "diretor": "Mel Gibson",
+    "filmes": ["A Paixão de Cristo", "Até o Último Homem"]
+  },
+  {
+    "diretor": "Michael Cimino",
+    "filmes": ["O Portal do Paraíso", "O Ano do Dragão"]
+  },
+  {
+    "diretor": "Michel Hazanavicius",
+    "filmes": ["O Procurado", "O Grande Golpe"]
+  },
+  {
+    "diretor": "Milos Forman",
+    "filmes": ["Hair", "O Povo Contra Larry Flynt"]
+  },
+  {
+    "diretor": "Morten Tyldum",
+    "filmes": ["Passageiros", "Headhunters"]
+  },
+  {
+    "diretor": "Oliver Stone",
+    "filmes": ["Nascido em 4 de Julho", "Wall Street"]
+  },
+  {
+    "diretor": "Paul Haggis",
+    "filmes": ["No Vale das Sombras", "A Conspiração"]
+  },
+  {
+    "diretor": "Peter Farrelly",
+    "filmes": ["Debi & Lóide: Dois Idiotas em Apuros", "Quem Vai Ficar com Mary?", "Passe Livre"]
+  },
+  {
+    "diretor": "Peter Jackson",
+    "filmes": ["King Kong", "Um Olhar do Paraíso"]
+  },
+  {
+    "diretor": "Richard Attenborough",
+    "filmes": ["Chaplin", "Um Grito de Liberdade"]
+  },
+  {
+    "diretor": "Ridley Scott",
+    "filmes": ["Blade Runner", "Perdido em Marte"]
+  },
+  {
+    "diretor": "Rob Marshall",
+    "filmes": ["Memórias de uma Gueixa", "Caminhos da Floresta"]
+  },
+  {
+    "diretor": "Robert Benton",
+    "filmes": ["Kramer vs. Kramer", "Ninguém é Perfeito"]
+  },
+  {
+    "diretor": "Robert Redford",
+    "filmes": ["Quiz Show: A Verdade dos Bastidores", "Nada é para Sempre"]
+  },
+  {
+    "diretor": "Robert Zemeckis",
+    "filmes": ["De Volta para o Futuro", "Náufrago"]
+  },
+  {
+    "diretor": "Ron Howard",
+    "filmes": ["Apollo 13", "Rush: No Limite da Emoção"]
+  },
+  {
+    "diretor": "Sam Mendes",
+    "filmes": ["1917", "007: Operação Skyfall"]
+  },
+  {
+    "diretor": "Sian Heder",
+    "filmes": ["Tallulah"]
+  },
+  {
+    "diretor": "Steve McQueen",
+    "filmes": ["Shame", "Viúvas"]
+  },
+  {
+    "diretor": "Steven Spielberg",
+    "filmes": ["Jurassic Park", "O Resgate do Soldado Ryan"]
+  },
+  {
+    "diretor": "Sydney Pollack",
+    "filmes": ["Tootsie", "A Firma"]
+  },
+  {
+    "diretor": "Tom Hooper",
+    "filmes": ["Os Miseráveis", "A Garota Dinamarquesa"]
+  },
+  {
+    "diretor": "Tom McCarthy",
+    "filmes": ["O Visitante", "Trocando os Pés"]
+  },
+  {
+    "diretor": "William Friedkin",
+    "filmes": ["O Exorcista", "Viver e Morrer em Los Angeles"]
+  },
+  {
+    "diretor": "Woody Allen",
+    "filmes": ["Meia-Noite em Paris", "Blue Jasmine"]
+  }
+]

@@ -1,0 +1,73 @@
+-- JOINs
+
+-- INNER JOIN
+-- O resultado deste JOIN terá apenas as linhas que são a interseção entre as duas tabelas. 
+-- Nenhuma linha presente apenas em uma das tabelas será incluída no resultado deste JOIN.
+
+SELECT
+  P.ID_Produto,
+  P.Nome_Produto,
+  C.Categoria
+FROM Base.produtos P
+INNER JOIN Base.categorias C
+  ON P.ID_Categoria = C.ID_Categoria;
+
+-- LEFT JOIN
+-- O resultado deste JOIN terá todas as linhas exclusivas apenas da tabela da esquerda, mais as linhas que são a interseção entre a tabela da esquerda e a tabela da direita.
+-- Nenhuma linha presente apenas na tabela da direita será incluída no resultado deste JOIN.
+
+SELECT
+  P.ID_Produto,
+  P.Nome_Produto,
+  C.Categoria
+FROM Base.produtos P
+LEFT JOIN Base.categorias C
+  ON P.ID_Categoria = C.ID_Categoria;
+
+-- RIGHT JOIN
+-- O resultado deste JOIN terá todas as linhas exclusivas apenas da tabela da direita, mais as linhas que são a interseção entre a tabela da direita e a tabela da esquerda.
+-- Nenhuma linha presente apenas na tabela da esquerda será incluída no resultado deste JOIN.
+
+SELECT
+  P.ID_Produto,
+  P.Nome_Produto,
+  C.Categoria
+FROM Base.produtos P
+RIGHT JOIN Base.categorias C
+  ON P.ID_Categoria = C.ID_Categoria;
+
+-- FULL JOIN
+-- O resultado deste JOIN terá todas as linhas das duas tabelas.
+
+SELECT
+  P.ID_Produto,
+  P.Nome_Produto,
+  C.Categoria
+FROM Base.produtos P
+FULL JOIN Base.categorias C
+  ON P.ID_Categoria = C.ID_Categoria;
+
+-- MÚLTIPLOS JOINs
+
+SELECT
+  Pe.ID_Pedido,
+  Pr.Nome_Produto,
+  C.Categoria,
+  Pe.Receita_Venda,
+  Pe.Custo_Venda
+FROM Base.pedidos Pe
+INNER JOIN Base.produtos Pr ON Pe.ID_Produto = Pr.ID_Produto
+  INNER JOIN Base.categorias C ON Pr.ID_Categoria = C.ID_Categoria
+ORDER BY Pe.ID_Pedido;
+
+-- CROSS JOIN
+-- Comando que nos permite criar uma combinação entre todos os valores de duas ou mais colunas.
+-- Essa combinação é conhecida como produto cartesiano: uma combinação um a um de todos os valores de duas ou mais colunas.
+
+SELECT DISTINCT
+  p1.Nome_Produto,
+  p2.Marca_Produto
+FROM
+  Base.produtos p1 CROSS JOIN Base.produtos p2;
+
+

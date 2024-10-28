@@ -1,0 +1,210 @@
+----- FUNÇÕES DE FORMATAÇÃO -----
+
+
+-- 1) NÚMEROS: 
+
+
+SELECT ROUND (18.735130, 2);
+
+
+SELECT TRUNC (18.735130, 2);
+
+
+SELECT FLOOR (18.735130);
+
+
+SELECT CEILING (18.735130);
+
+
+
+
+-- 2) DATAS:
+
+SELECT CURRENT_DATE(); -- DATA ATUAL
+
+
+SELECT CURRENT_TIME(); -- HORA ATUAL
+
+
+SELECT CURRENT_DATETIME(); -- DATA/HORA ATUAIS
+
+
+SELECT CURRENT_DATETIME('America/Sao_Paulo'); -- Timezone local
+
+
+SELECT DATE_TRUNC(CURRENT_DATE(), MONTH); -- MOSTRA DATA DO PRIMEIRO DIA DO MES EM RELACAO À DATA INFORMADA
+
+
+SELECT DATE_TRUNC(CURRENT_DATE(), YEAR); -- MOSTRA DATA DO PRIMEIRO DIA DO ANO EM RELACAO À DATA INFORMADA
+
+
+SELECT DATE_ADD(CURRENT_DATE(), INTERVAL 10 DAY);
+SELECT DATE_ADD(CURRENT_DATE(), INTERVAL 1 MONTH);
+SELECT DATE_ADD(CURRENT_DATE(), INTERVAL 2 YEAR);
+
+
+SELECT DATE_SUB(CURRENT_DATE(), INTERVAL 10 DAY);
+SELECT DATE_SUB(CURRENT_DATE(), INTERVAL 1 MONTH);
+SELECT DATE_SUB(CURRENT_DATE(), INTERVAL 2 YEAR);
+
+
+SELECT DATE_DIFF(CURRENT_DATE(), '2023-11-14', DAY); 
+SELECT DATE_DIFF('2023-11-14',  CURRENT_DATE(), DAY); 
+SELECT DATE_DIFF(CURRENT_DATE(), '2023-11-14', MONTH); 
+SELECT DATE_DIFF('2023-11-14',  CURRENT_DATE(), MONTH); 
+SELECT DATE_DIFF(CURRENT_DATE(), '2021-01-14', YEAR); 
+SELECT DATE_DIFF('2021-01-14',  CURRENT_DATE(), YEAR); 
+
+SELECT LAST_DAY(CURRENT_DATE(), MONTH); -- ULTIMO DIA DO MES EM RELACAO À DATA INFORMADA
+SELECT LAST_DAY(CURRENT_DATE(), YEAR); -- ULTIMO DIA DO ANO EM RELACAO À DATA INFORMADA
+
+
+SELECT
+  Nome,
+  Data_Nascimento,
+  EXTRACT(DAY FROM Data_Nascimento) AS DIA,
+  EXTRACT(MONTH FROM Data_Nascimento) AS MES,
+  EXTRACT(YEAR FROM Data_Nascimento) AS ANO,
+  EXTRACT(QUARTER FROM Data_Nascimento) AS TRIMESTRE
+FROM Base.clientes;
+
+
+
+
+-- 3) STRINGS:
+
+-- Transformando primeira letra de cada palavra em maiúsculas e restante em minúscula:
+
+SELECT INITCAP('sql impreSSIonadOR');
+
+
+-- Transformando todas as letras em maiúsculas:
+
+SELECT UPPER('sql impreSSIonadOR');
+
+
+-- Transformando todas as letras em minúsculas:
+
+SELECT LOWER('sql impreSSIonadOR');
+
+
+-- Contando a quantidade de caracteres de um texto:
+
+SELECT LENGTH('SQL Impressionador');
+SELECT LENGTH('     SQL Impressionador     ');
+
+
+-- Removendo espaços em branco à esquerda e à direita do texto:
+
+SELECT TRIM('     SQL Impressionador     ');
+
+SELECT 
+  LENGTH('     SQL Impressionador     ') AS SEM_TRIM,
+  LENGTH(TRIM('     SQL Impressionador     ')) AS COM_TRIM;
+
+
+-- Removendo espaços em branco somente à esquerda do texto:
+
+SELECT LTRIM('     SQL Impressionador     ');
+
+SELECT 
+  LENGTH('     SQL Impressionador     ') AS SEM_LTRIM,
+  LENGTH(LTRIM('     SQL Impressionador     ')) AS COM_LTRIM;
+
+
+-- Removendo espaços em branco somente à direita do texto:
+
+SELECT RTRIM('     SQL Impressionador     ');
+
+SELECT 
+  LENGTH('     SQL Impressionador     ') AS SEM_RTRIM,
+  LENGTH(RTRIM('     SQL Impressionador     ')) AS COM_RTRIM;
+
+
+-- Utilize a função REPLACE para alterar o termo SQL da string abaixo para Excel.
+
+SELECT REPLACE('SQL Impressionador', 'SQL', 'Excel');
+
+-- Retorne em uma única coluna o nome e o sobrenome dos clientes.
+
+SELECT 
+  Nome,
+  Sobrenome,
+  CONCAT(Nome, ' ', Sobrenome)
+FROM Base.clientes;
+
+
+-- O Num_Serie de cada produto é composto por letras e números. Queremos extrair apenas a parte numérica.
+
+SELECT
+  Num_Serie,
+  SUBSTR(Num_Serie, 8, 6)
+FROM Base.produtos;
+
+
+-- A função SUBSTRING faz a mesma coisa que a SUBSTR:
+
+SELECT
+  Num_Serie,
+  SUBSTRING(Num_Serie, 8, 6)
+FROM Base.produtos;
+
+
+-- LEFT / RIGHT
+
+SELECT LEFT('sql_impressionador@gmail.com', 18); -- Extrai o nome do e-mail (antes do @)
+
+SELECT RIGHT('sql_impressionador@gmail.com', 9); -- Extrai o servidor do e-mail (após do @)
+
+-- Descubra a posição do @ dos e-mails dos clientes.
+
+SELECT
+  Nome,
+  Email,
+  INSTR(Email, '@')
+FROM Base.clientes;
+
+
+-- Separe apenas os nomes dos e-mails dos clientes (o que aparece antes do @) utilizando as funções INSTR e LEFT em conjunto.
+
+SELECT
+  Nome,
+  Email,
+  LEFT(Email, INSTR(Email, '@') -1)
+FROM Base.clientes;
+
+
+-- Separe apenas o servidor/domínio de cada e-mail dos clientes (o que aparece após o @) utilizando as funções INSTR e SUBSTR em conjunto.
+
+SELECT
+  Nome,
+  Email,
+  SUBSTR(Email, INSTR(Email, '@') +1, 100)
+FROM Base.clientes;
+
+
+-- Utilizando uma função chamada REVERSE junto com a INSTR, também conseguimos descobrir a posição do @ dos e-mails, só que no sentido contrário (de trás para frente). Dessa forma, em vez de precisarmos da SUBSTR para separar o servidor/domínio do e-mail de cada cliente, conseguimos utilizar a função RIGHT:
+
+SELECT
+  Nome,
+  Email,
+  RIGHT(Email, INSTR(REVERSE(Email), '@') -1)
+FROM Base.clientes;
+
+
+-- Precisamos que o Num_Serie de cada produto possua 20 dígitos. Utilize a função LPAD para acrescentar asteriscos à esquerda do Num_Serie dos produtos para que passem a ter 20 dígitos.
+
+SELECT
+  Num_Serie,
+  LPAD(Num_Serie, 20, '*')
+FROM Base.produtos;
+
+
+-- Agora, faça o mesmo solicitado acima, porém, acrescentando os asteriscos à direita do Num_Serie dos produtos.
+
+SELECT
+  Num_Serie,
+  RPAD(Num_Serie, 20, '*')
+FROM Base.produtos;
+
+

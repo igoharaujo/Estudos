@@ -1,0 +1,45 @@
+----- FUNÇÕES DE CONVERSÃO -----
+
+-- A) DE NÚMEROS PARA STRING
+
+
+SELECT CAST(785123.4580 AS STRING FORMAT '$999,999.99');
+
+SELECT CAST(SUM(Receita_Venda) AS STRING FORMAT '$999,999,999.99') FROM Base.pedidos; -- $80,938,440.00
+
+SELECT
+  REPLACE(REPLACE(REPLACE(REPLACE(CAST(SUM(Receita_Venda) AS STRING FORMAT '$999,999,999.99'), '.', '_'), ',', '.'), '_', ','), '$', 'R$ ') as RECEITA_TOTAL
+FROM Base.pedidos; --   R$ 80.938.440,00
+
+
+
+-- B) DE STRING PARA NÚMEROS
+
+
+SELECT PARSE_NUMERIC("123.45") AS parsed;
+
+
+
+-- C) DE DATAS PARA STRINGS
+
+
+SELECT CAST(CURRENT_DATE() AS STRING FORMAT 'DD/MM/YYYY') AS DATA_ATUAL; -- DATA NO FORMATO BRASILEIRO
+
+SELECT CAST(CURRENT_DATE() AS STRING FORMAT 'DAY') AS DIA_ATUAL; -- DIA DA SEMANA POR EXTENSO
+
+
+SELECT CAST(CURRENT_DATE() AS STRING FORMAT 'MONTH') AS MES_ATUAL; -- NOME DO MÊS POR EXTENSO
+
+
+
+-- D) DE STRINGS PARA DATAS
+
+
+SELECT FORMAT_DATE('%d/%m/%Y', DATE '2023-12-16')
+
+
+-- Formatos de data aceitos pela função FORMAT_DATE: https://cloud.google.com/bigquery/docs/reference/standard-sql/format-elements#format_elements_date_time
+
+
+
+

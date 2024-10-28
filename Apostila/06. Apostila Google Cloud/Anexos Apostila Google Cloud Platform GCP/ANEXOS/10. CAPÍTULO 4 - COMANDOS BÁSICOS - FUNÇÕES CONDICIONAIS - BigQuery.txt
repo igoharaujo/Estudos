@@ -1,0 +1,86 @@
+----- FUNÇÕES CONDICIONAIS -----
+
+-- CASE / IF
+-- Utilize a função condicional CASE para alterar a coluna Sexo para fazer constar: 'Feminino' para 'F' e 'Masculino' para 'M'.
+
+SELECT 
+  Nome,
+  Sexo,
+  CASE
+    WHEN Sexo = 'M' THEN 'Masculino'
+    ELSE 'Feminino'
+  END AS Sexo2
+FROM Base.clientes;
+
+-- Podemos obter o mesmo resultado com a função IF:
+
+SELECT 
+  Nome,
+  Sexo,
+  IF (Sexo = 'M', 'Masculino', 'Feminino') AS Sexo2
+FROM Base.clientes;
+
+-- CASE / IF com mais de uma condição
+-- Verifique a quantidade de funcionários de cada loja. Se a loja tiver até 15 funcionários (inclusive), será considerada de pequeno porte; se tiver entre 16 e 30 funcionários, será considerada de médio porte; e se tiver mais de 30 funcionários, será de grande porte.
+
+SELECT 
+  Loja,
+  Num_Funcionarios,
+  CASE
+    WHEN Num_Funcionarios <= 15 THEN 'Pequeno Porte'
+    WHEN Num_Funcionarios <= 30 THEN 'Médio Porte'
+    ELSE 'Grande Porte'
+  END AS Porte
+FROM Base.lojas;
+
+-- Podemos obter o mesmo resultado com a função IF:
+
+SELECT 
+  Loja,
+  Num_Funcionarios,
+  IF (Num_Funcionarios <= 15, 
+    'Pequeno Porte',
+    IF (Num_Funcionarios <= 30, 
+      'Médio Porte', 
+      'Grande Porte')
+  ) AS Porte
+FROM Base.lojas;
+
+
+-- IFNULL
+-- Na coluna Telefone da tabela clientes, para os campos NULL retorne a informação "Não informado".
+-- Obs.: campos sem preenchimento são diferentes de campos preenchidos com a palavra NULL
+
+-- Com IFNULL, somente os campos sem preenchimento são verificados e alterados:
+SELECT
+  ID_Cliente,
+  Nome,
+  Telefone,
+  IFNULL(Telefone, 'Não informado')
+FROM Base.clientes;
+
+-- Para alterar tanto campos sem preenchimento quanto campos preenchidos com a palavra NULL, podemos utilizar a função CASE para verificar ambas as condições...
+
+SELECT
+  ID_Cliente,
+  Nome,
+  Telefone,
+  CASE
+    WHEN Telefone IS NULL OR Telefone = 'NULL' THEN 'Não informado'
+    ELSE Telefone
+  END AS Telefone2
+FROM Base.clientes;
+
+-- Ou a função IF:
+
+SELECT
+  ID_Cliente,
+  Nome,
+  Telefone,
+  IF (Telefone IS NULL OR Telefone = 'NULL', 
+    'Não informado', 
+    Telefone
+  ) AS Telefone2
+FROM Base.clientes;
+
+

@@ -1,0 +1,388 @@
+[
+{
+  "_id": 1,
+  "nome_produto": "Samsung Galaxy A25 5G Dual SIM 256GB Azul-escuro 8GB RAM",
+  "marca": "Samsung",
+  "descricao": "Smartphone Samsung Galaxy A25 5G Dual SIM 256GB Azul-escuro 8GB RAM com tela Super AMOLED de 6.5\", 3 câmeras traseiras de 50MP/8MP/2MP, câmera frontal de 13MP, processador octa-core, bateria de 5000mAh e Android 14.",
+  "foto_url": "C:/Hash-Commerce/catalogo/produtos/imagens/Samsung_Galaxy_A25.png",
+  "preco": 1380.00,
+  "avaliacao": {
+    "estrelas": 4.8,
+    "quantidade_avaliacoes": 1790
+  },
+  "estoque": 500,
+  "vendedor": "Hash-Commerce",
+  "garantia": {
+    "tipo": "Garantia do fabricante",
+    "duracao": "12 meses"
+  },
+  "entrega": {
+    "frete_gratis": true,
+    "prazo_entrega": "Calcular"
+  },
+  "devolucao": {
+    "gratuita": true,
+    "prazo": 30
+  }
+},
+{
+  "_id": 2,
+  "nome_produto": "Motorola Moto G60s 128GB Cinza-escuro 6GB RAM",
+  "marca": "Motorola",
+  "descricao": "Smartphone Motorola Moto G60s 128GB Cinza-escuro 6GB RAM com tela IPS LCD de 6.5\", câmera principal de 108MP, câmera ultrawide de 8MP, câmera macro de 5MP, câmera de profundidade de 2MP, câmera frontal de 16MP, processador octa-core, bateria de 5000mAh e Android 12.",
+  "foto_url": "C:/Hash-Commerce/catalogo/produtos/imagens/Motorola_Moto_G60s.png",
+  "preco": 1299.00,
+  "avaliacao": {
+    "estrelas": 4.7,
+    "quantidade_avaliacoes": 850
+  },
+  "estoque": 300,
+  "vendedor": "Hash-Commerce",
+  "garantia": {
+    "tipo": "Garantia do fabricante",
+    "duracao": "12 meses"
+  },
+  "entrega": {
+    "frete_gratis": true,
+    "prazo_entrega": "Calcular"
+  },
+  "devolucao": {
+    "gratuita": true,
+    "prazo": 30
+  }
+},
+{
+  "_id": 3,
+  "nome_produto": "Notebook Lenovo IdeaPad Slim 3i Core i3 8GB RAM 256GB SSD Tela 15.6\" Windows 11 Cinza-escuro",
+  "marca": "Lenovo",
+  "descricao": "Notebook Lenovo IdeaPad Slim 3i com processador Intel Core i3, 8GB de RAM, 256GB de armazenamento SSD, tela Full HD de 15.6\", sistema operacional Windows 11 e design elegante e leve.",
+  "foto_url": "C:/Hash-Commerce/catalogo/produtos/imagens/Lenovo_IdeaPad_Slim_3i.png",
+  "preco": 2499.00,
+  "avaliacao": {
+    "estrelas": 3.9,
+    "quantidade_avaliacoes": 520
+  },
+  "estoque": 250,
+  "vendedor": "Hash-Commerce",
+  "garantia": {
+    "tipo": "Garantia do fabricante",
+    "duracao": "12 meses"
+  },
+  "entrega": {
+    "frete_gratis": true,
+    "prazo_entrega": "Calcular"
+  },
+  "devolucao": {
+    "gratuita": true,
+    "prazo": 30
+  }
+},
+{
+  "_id": 4,
+  "nome_produto": "Smart TV Samsung Crystal UHD 4K 50\" TU8000 Series HDR Premium Wi-Fi Preto",
+  "marca": "Samsung",
+  "descricao": "Smart TV Samsung Crystal UHD 4K de 50\" da série TU8000 com HDR Premium, processador Crystal 4K, PurColor, Wi-Fi, design slim e acesso a diversos aplicativos.",
+  "foto_url": "C:/Hash-Commerce/catalogo/produtos/imagens/Samsung_Crystal_UHD_4K_TU8000.png",
+  "preco": 2799.00,
+  "avaliacao": {
+    "estrelas": 4.8,
+    "quantidade_avaliacoes": 1340
+  },
+  "estoque": 180,
+  "vendedor": "Hash-Commerce",
+  "garantia": {
+    "tipo": "Garantia do fabricante",
+    "duracao": "12 meses"
+  },
+  "entrega": {
+    "frete_gratis": true,
+    "prazo_entrega": "Calcular"
+  }
+},
+{
+  "_id": 5,
+  "nome_produto": "Fone de Ouvido Bluetooth JBL Live 660NC Preto com Cancelamento de Ruído Ativo",
+  "marca": "JBL",
+  "descricao": "Fone de ouvido Bluetooth JBL Live 660NC com cancelamento de ruído ativo, som JBL Pure Bass, bateria de até 30 horas, design ergonômico e carregamento rápido.",
+  "foto_url": "C:/Hash-Commerce/catalogo/produtos/imagens/JBL_Live_660NC.png",
+  "preco": 599.00,
+  "avaliacao": {
+    "estrelas": 4.9,
+    "quantidade_avaliacoes": 2450
+  },
+  "estoque": 400,
+  "vendedor": "Hash-Commerce",
+  "garantia": {
+    "tipo": "Garantia do fabricante",
+    "duracao": "6 meses"
+  },
+  "entrega": {
+    "frete_gratis": true,
+    "prazo_entrega": "Calcular"
+  },
+  "devolucao": {
+    "gratuita": true,
+    "prazo": 30
+  }
+},
+{
+  "_id": 6,
+  "nome_produto": "Caixa de Som Bluetooth JBL Charge 5 Preto à prova d'água",
+  "marca": "JBL",
+  "descricao": "Caixa de som Bluetooth JBL Charge 5 à prova d'água com som JBL potente, bateria de até 20 horas, banco de energia integrado e design robusto.",
+  "foto_url": "C:/Hash-Commerce/catalogo/produtos/imagens/JBL_Charge_5.png",
+  "preco": 899.00,
+  "avaliacao": {
+    "estrelas": 4.8,
+    "quantidade_avaliacoes": 1820
+  },
+  "estoque": 220,
+  "vendedor": "Hash-Commerce",
+  "garantia": {
+    "tipo": "Garantia do fabricante",
+    "duracao": "3 meses"
+  },
+  "entrega": {
+    "frete_gratis": true,
+    "prazo_entrega": "Calcular"
+  },
+  "devolucao": {
+    "gratuita": true,
+    "prazo": 30
+  }
+},
+{
+  "_id": 7,
+  "nome_produto": "Smartwatch Samsung Galaxy Watch 4 Classic Prata com Monitoramento de Saúde",
+  "marca": "Samsung",
+  "descricao": "Smartwatch Samsung Galaxy Watch 4 Classic com tela AMOLED de 1.2\", monitoramento de saúde avançado (ECG, SpO2, sono), design elegante e compatível com Android e iOS.",
+  "foto_url": "C:/Hash-Commerce/catalogo/produtos/imagens/Samsung_Galaxy_Watch_4_Classic.png",
+  "preco": 1199.00,
+  "avaliacao": {
+    "estrelas": 4.7,
+    "quantidade_avaliacoes": 980
+  },
+  "estoque": 150,
+  "vendedor": "Hash-Commerce",
+  "garantia": {
+    "tipo": "Garantia do fabricante",
+    "duracao": "3 meses"
+  },
+  "entrega": {
+    "frete_gratis": true,
+    "prazo_entrega": "Calcular"
+  },
+  "devolucao": {
+    "gratuita": true,
+    "prazo": 30
+  }
+},
+{
+  "_id": 8,
+  "nome_produto": "Tablet Samsung Galaxy Tab A8 10.5\" Tela Widescreen Wi-Fi 32GB Cinza-escuro",
+  "marca": "Samsung",
+  "descricao": "Tablet Samsung Galaxy Tab A8 com tela widescreen de 10.5\", processador octa-core, 3GB de RAM, 32GB de armazenamento, bateria de 7040mAh, Wi-Fi e design elegante.",
+  "foto_url": "C:/Hash-Commerce/catalogo/produtos/imagens/Samsung_Galaxy_Tab_A8.png",
+  "preco": 1399.00,
+  "avaliacao": {
+    "estrelas": 4.6,
+    "quantidade_avaliacoes": 480
+  },
+  "estoque": 280,
+  "vendedor": "Hash-Commerce",
+  "garantia": {
+    "tipo": "Garantia do fabricante",
+    "duracao": "12 meses"
+  },
+  "entrega": {
+    "frete_gratis": true,
+    "prazo_entrega": "Calcular"
+  },
+  "devolucao": {
+    "gratuita": true,
+    "prazo": 30
+  }
+},
+{
+  "_id": 9,
+  "nome_produto": "Câmera Digital Canon EOS 200D II com Lente 18-55mm IS II Kit Preto",
+  "marca": "Canon",
+  "descricao": "Câmera digital Canon EOS 200D II com sensor APS-C de 24.1MP, processador DIGIC 4+, tela LCD de 3\", Wi-Fi, Bluetooth e lente 18-55mm IS II ideal para iniciantes.",
+  "foto_url": "C:/Hash-Commerce/catalogo/produtos/imagens/Canon_EOS_200D_II.png",
+  "preco": 3499.00,
+  "avaliacao": {
+    "estrelas": 4.9,
+    "quantidade_avaliacoes": 1230
+  },
+  "estoque": 160,
+  "vendedor": "Hash-Commerce",
+  "garantia": {
+    "tipo": "Garantia do fabricante",
+    "duracao": "6 meses"
+  },
+  "entrega": {
+    "frete_gratis": true,
+    "prazo_entrega": "Calcular"
+  },
+  "devolucao": {
+    "gratuita": true,
+    "prazo": 30
+  }
+},
+{
+  "_id": 10,
+  "nome_produto": "Notebook Gamer Acer Nitro 5 AN515-55-575Q Intel Core i5 11ª Geração 8GB RAM 512GB SSD Tela 15.6\" GeForce GTX 1650 Preto",
+  "marca": "Acer",
+  "descricao": "Notebook gamer Acer Nitro 5 com processador Intel Core i5 de 11ª geração, 8GB de RAM, 512GB de SSD, tela Full HD de 15.6\", placa de vídeo GeForce GTX 1650 e design gamer agressivo.",
+  "foto_url": "C:/Hash-Commerce/catalogo/produtos/imagens/Acer_Nitro_5_AN515-55-575Q.png",
+  "preco": 4999.00,
+  "avaliacao": {
+    "estrelas": 4.7,
+    "quantidade_avaliacoes": 760
+  },
+  "estoque": 100,
+  "vendedor": "Hash-Commerce",
+  "garantia": {
+    "tipo": "Garantia do fabricante",
+    "duracao": "12 meses"
+  },
+  "entrega": {
+    "frete_gratis": true,
+    "prazo_entrega": "Calcular"
+  },
+  "devolucao": {
+    "gratuita": true,
+    "prazo": 30
+  }
+},
+{
+  "_id": 11,
+  "nome_produto": "Drone DJI Mini 2 Fly More Combo Preto com Controle Remoto e Acessórios",
+  "marca": "DJI",
+  "descricao": "Drone DJI Mini 2 Fly More Combo com câmera de 4K, autonomia de até 31 minutos, controle remoto, bateria extra, estojo de transporte e outros acessórios.",
+  "foto_url": "C:/Hash-Commerce/catalogo/produtos/imagens/DJI_Mini_2_Fly_More_Combo.png",
+  "preco": 3999.00,
+  "avaliacao": {
+    "estrelas": 3.5,
+    "quantidade_avaliacoes": 2560
+  },
+  "estoque": 130,
+  "vendedor": "Hash-Commerce",
+  "garantia": {
+    "tipo": "Garantia do fabricante",
+    "duracao": "3 meses"
+  },
+  "entrega": {
+    "frete_gratis": true,
+    "prazo_entrega": "Calcular"
+  },
+  "devolucao": {
+    "gratuita": true,
+    "prazo": 30
+  }
+},
+{
+  "_id": 12,
+  "nome_produto": "Fones de Ouvido Bluetooth Sony WH-CH710N Preto com Cancelamento de Ruído",
+  "marca": "Sony",
+  "descricao": "Fones de ouvido Bluetooth Sony WH-CH710N com cancelamento de ruído ativo, som de alta qualidade, bateria de até 35 horas, design leve e confortável e carregamento rápido.",
+  "foto_url": "C:/Hash-Commerce/catalogo/produtos/imagens/Sony_WH-CH710N.png",
+  "preco": 699.00,
+  "avaliacao": {
+    "estrelas": 4.0,
+    "quantidade_avaliacoes": 1670
+  },
+  "estoque": 350,
+  "vendedor": "Hash-Commerce",
+  "garantia": {
+    "tipo": "Garantia do fabricante",
+    "duracao": "6 meses"
+  },
+  "entrega": {
+    "frete_gratis": true,
+    "prazo_entrega": "Calcular"
+  },
+  "devolucao": {
+    "gratuita": true,
+    "prazo": 30
+  }
+},
+{
+  "_id": 13,
+  "nome_produto": "Smart TV LG 43UQ7500 Series 4K UHD HDR WebOS 43\" Preto",
+  "marca": "LG",
+  "descricao": "Smart TV LG 43UQ7500 Series com tela 4K UHD, HDR, processador Quad Core, sistema operacional WebOS, inteligência artificial ThinQ AI e design elegante.",
+  "foto_url": "C:/Hash-Commerce/catalogo/produtos/imagens/LG_43UQ7500_Series.png",
+  "preco": 2399.00,
+  "avaliacao": {
+    "estrelas": 3.8,
+    "quantidade_avaliacoes": 1140
+  },
+  "estoque": 190,
+  "vendedor": "Hash-Commerce",
+  "garantia": {
+    "tipo": "Garantia do fabricante",
+    "duracao": "12 meses"
+  },
+  "entrega": {
+    "frete_gratis": true,
+    "prazo_entrega": "Calcular"
+  },
+  "devolucao": {
+    "gratuita": true,
+    "prazo": 30
+  }
+},
+{
+  "_id": 14,
+  "nome_produto": "Câmera Fotográfica Canon EOS M200 Kit 25-100mm F4.5-5.6 IS STM Preto",
+  "marca": "Canon",
+  "descricao": "Câmera fotográfica Canon EOS M200 com sensor APS-C de 24.1MP, processador DIGIC 8, tela LCD de 3\" touchscreen, Wi-Fi e Bluetooth, e lente 25-100mm F4.5-5.6 IS STM ideal para iniciantes e entusiastas.",
+  "foto_url": "C:/Hash-Commerce/catalogo/produtos/imagens/Canon_EOS_M200_Kit.png",
+  "preco": 3999.00,
+  "avaliacao": {
+    "estrelas": 4.8,
+    "quantidade_avaliacoes": 1540
+  },
+  "estoque": 150,
+  "vendedor": "Hash-Commerce",
+  "garantia": {
+    "tipo": "Garantia do fabricante",
+    "duracao": "6 meses"
+  },
+  "entrega": {
+    "frete_gratis": true,
+    "prazo_entrega": "Calcular"
+  },
+  "devolucao": {
+    "gratuita": true,
+    "prazo": 30
+  }
+},
+{
+  "_id": 15,
+  "nome_produto": "Smartwatch Apple Watch Series 7 Preto com GPS e Celular",
+  "marca": "Apple",
+  "descricao": "Smartwatch Apple Watch Series 7 com tela maior e mais brilhante, monitoramento avançado de saúde, ECG, SpO2, sono, conectividade celular e design elegante.",
+  "foto_url": "C:/Hash-Commerce/catalogo/produtos/imagens/Apple_Watch_Series_7.png",
+  "preco": 3499.00,
+  "avaliacao": {
+    "estrelas": 5.0,
+    "quantidade_avaliacoes": 2980
+  },
+  "estoque": 90,
+  "vendedor": "Hash-Commerce",
+  "garantia": {
+    "tipo": "Garantia do fabricante",
+    "duracao": "3 meses"
+  },
+  "entrega": {
+    "frete_gratis": true,
+    "prazo_entrega": "Calcular"
+  },
+  "devolucao": {
+    "gratuita": true,
+    "prazo": 30
+  }
+}
+]

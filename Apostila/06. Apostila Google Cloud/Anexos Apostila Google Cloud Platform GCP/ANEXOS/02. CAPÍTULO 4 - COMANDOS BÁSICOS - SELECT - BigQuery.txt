@@ -1,0 +1,66 @@
+----- SELECT -----
+
+
+-- 1) SELECT *
+
+-- Selecionando todas as linhas e colunas da tabela categorias:
+
+-- a) Utilizando sintaxe somente com nome do conjunto de dados e da tabela:
+
+SELECT
+  *
+FROM Base.categorias;
+
+-- b) Utilizando sintaxe com ID do projeto, do conjunto de dados e da tabela:
+
+SELECT
+  *
+FROM base-409314.Base.categorias;
+
+
+-- 2) SELECT (colunas)
+
+-- Selecionando todas as linhas da tabela clientes, especificamente as colunas Nome, Sobrenome e Email:
+
+SELECT 
+  Nome,
+  Sobrenome,
+  Email
+FROM Base.clientes;
+
+
+-- 3) SELECT / LIMIT
+
+-- Retornar apenas as 10 primeiras linhas da tabela pedidos:
+
+SELECT
+  *
+FROM Base.pedidos LIMIT 10;
+
+
+-- 4) SELECT / LIMIT / OFFSET
+
+-- Retornar 10 linhas da tabela pedidos "pulando" as 5 primeiras:
+SELECT
+  *
+FROM Base.pedidos LIMIT 10 OFFSET 5;
+
+
+-- 5) SELECT DISTINCT
+
+-- Retornar os valores distintos da coluna Marca_Produto da tabela produtos:
+
+SELECT DISTINCT
+  Marca_Produto
+FROM Base.produtos;
+
+
+-- 6) SELECT / AS (Alterando os nomes colunas no resultado da consulta)
+
+-- Consultar as colunas da tabela locais alterando seus nomes para o plural:
+
+SELECT
+  Cidade AS `Cidades`,
+  Estado AS `Estados`,
+  Regiao AS `Regiões`
+FROM Base.locais;

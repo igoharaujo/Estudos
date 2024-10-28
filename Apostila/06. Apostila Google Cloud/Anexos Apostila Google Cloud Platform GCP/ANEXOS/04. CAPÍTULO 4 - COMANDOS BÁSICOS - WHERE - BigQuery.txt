@@ -1,0 +1,187 @@
+----- WHERE -----
+
+-- Filtrando tabela com WHERE
+
+-- WHERE EM COLUNA NUMÉRICA
+-- Quais produtos possuem um preço unitário maior que R$2000?
+
+SELECT
+  *
+FROM Base.produtos
+WHERE Preco_Unit > 2000;
+
+-- Obs.: Podemos acrescentar um ORDER BY no código acima para melhorar a visualização do resultado:
+
+SELECT
+  *
+FROM Base.produtos
+WHERE Preco_Unit > 2000
+ORDER BY Preco_Unit;
+
+-- WHERE EM COLUNA DE TEXTO
+-- Quais são os produtos da marca DELL?
+
+SELECT
+  *
+FROM Base.produtos
+WHERE Marca_Produto = 'DELL'; -- STRINGS também podem ser informadas utilizando-se aspas duplas / informar o texto exatamente como está armazenado (o BigQuery é Case Sensitive, diferencia letras maiúsculas e minúsculas)
+
+-- WHERE EM COLUNA DE DATA
+-- Quais foram os pedidos efetuados a partir de 01/01/2020?
+
+SELECT
+  *
+FROM Base.pedidos
+WHERE Data_Venda >= '2020-01-01'; -- DATAS devem ser informadas entre aspas (simples ou duplas) no formato americano (ano-mês-dia, separada por traços)
+
+
+-- WHERE + AND
+-- Quais produtos possuem um preço unitário menor que R$3000 E são da marca SAMSUNG?
+
+SELECT
+  *
+FROM Base.produtos
+WHERE Preco_Unit < 3000 AND Marca_Produto = 'SAMSUNG';
+
+-- WHERE + OR
+-- Quais produtos são da marca SAMSUNG OU da marca ALTURA?
+
+SELECT
+  *
+FROM Base.produtos
+WHERE Marca_Produto = 'SAMSUNG' OR Marca_Produto = 'ALTURA';
+
+-- IMPORTANTE: ORDEM DE PRECEDÊNCIA WHERE + AND/OR
+-- Pela ordem de precedência, o AND é filtrado primeiro, depois o OR. Sendo assim, caso o OR deva ser filtrado antes do AND, a condição do OR deve ser colocada entre parênteses. Assim, o código a executará primeiro.
+
+-- Quais produtos são da marca DELL OU ALTURA E possuem um preço unitário maior ou igual a R$2000?
+-- Aqui, precisamos primeiro filtrar o OR que retornará os produtos das marcas DELL ou ALTURA. Em seguida, devemos filtrar o resultado desse filtro (ou seja, os produtos das marcas DELL ou ALTURA) para retornar somente aqueles cujo preço unitário seja maior ou igual a R$2000.
+
+-- Então, fazemos assim:
+
+SELECT
+  *
+FROM Base.produtos
+WHERE (Marca_Produto = 'DELL' OR Marca_Produto = 'ALTURA') AND Preco_Unit >= 2000;
+
+-- Sem os parênteses separando o filtro OR, repare que o código primeiro separa todos os produtos da marca ALTURA cujo preço unitário seja maior ou igual a R$2000. Depois, ele acrescenta ao resultado todos os produtos da marca DELL (independentemente do preço unitário de tais produtos):
+
+SELECT
+  *
+FROM Base.produtos
+WHERE Marca_Produto = 'DELL' OR Marca_Produto = 'ALTURA' AND Preco_Unit >= 2000;
+
+
+-- WHERE NOT
+-- Quais produtos NÃO são da marca DELL?
+
+SELECT
+  *
+FROM Base.produtos
+WHERE NOT Marca_Produto = 'DELL';
+
+-- WHERE + IN
+-- Alternativa aos múltiplos OR
+
+-- Quais clientes possuem renda anual de 10000 ou 20000 ou 30000?
+
+-- Em vez de fazermos vários ORs para se chegar a esse resultado...
+
+SELECT
+  *
+FROM Base.clientes
+WHERE Renda_Anual = 10000 OR Renda_Anual = 20000 OR Renda_Anual = 30000;
+
+-- ... Podemos utilizar o operador IN:
+
+SELECT
+  *
+FROM Base.clientes
+WHERE Renda_Anual IN (10000, 20000, 30000);
+
+
+-- WHERE + LIKE
+-- Podemos filtrar colunas de texto por trechos de strings.
+
+-- Quais produtos possuem imagem Full HD?
+
+SELECT
+  *
+FROM Base.produtos
+WHERE Nome_Produto LIKE '%Full HD%';
+
+-- Filtre os notebooks cadastrados na tabela produtos:
+
+SELECT
+  *
+FROM Base.produtos
+WHERE Nome_Produto LIKE 'Notebook%';
+
+-- Quais produtos possuem entrada HDMI?
+
+SELECT
+  *
+FROM Base.produtos
+WHERE Nome_Produto LIKE '%HDMI';
+
+-- Filtre os microfones condensadores (lembre-se que o BigQuery é Case Sensitive, portanto, diferencia letras maiúsculas e minúsculas):
+
+SELECT
+  *
+FROM Base.produtos
+WHERE Nome_Produto LIKE '%_ondensador%';
+
+
+-- WHERE + BETWEEN
+-- Quais clientes possuem renda anual entre R$40000 e R$70000? 
+
+SELECT
+  *
+FROM Base.clientes
+WHERE Renda_Anual BETWEEN 40000 AND 70000
+ORDER BY Renda_Anual DESC;
+
+-- Quais clientes nasceram entre 29/08/1998 e 23/04/1999? 
+
+SELECT
+  *
+FROM Base.clientes
+WHERE Data_Nascimento BETWEEN '1998-08-29' AND '1999-04-23'
+ORDER BY Data_Nascimento;
+
+-- Perceba que, com números e datas, o BETWEEN é inclusivo, ou seja: inclui no resultado o valor do filtro inicial e do filtro final).
+
+-- Filtre os nomes dos clientes que começam com A e B:
+
+SELECT
+  *
+FROM Base.clientes
+WHERE Nome BETWEEN 'A' AND 'C'
+ORDER BY Nome;
+
+-- Com textos, repare que ao filtrar por nomes de A a C, o código retornou somente os nomes que começam com A e B, mas não incluiu nenhum nome que se inicia com a letra C. Isso acontece porque não existe ninguém cadastrado na tabela cujo nome seja somente 'C'. Se expandirmos um pouco mais esse filtro para 'Cb', veremos que todos os nomes que começam com 'Ca' serão incluídos, pois, na ordem alfabética, Ca vem antes de Cb:
+
+SELECT
+  *
+FROM Base.clientes
+WHERE Nome BETWEEN 'A' AND 'Cb'
+ORDER BY Nome;
+
+
+-- WHERE + IS NULL / IS NOT NULL
+
+-- Verifique se existem clientes que não informaram seus telefones:
+
+SELECT
+  *
+FROM Base.clientes
+WHERE Telefone IS NULL;
+
+-- Verifique os clientes que informaram seus telefones:
+
+SELECT
+  *
+FROM Base.clientes
+WHERE Telefone IS NOT NULL;
+
+

@@ -1,0 +1,70 @@
+----- GROUP BY -----
+
+-- GROUP BY
+
+-- Qual é a quantidade de produtos por marca?
+
+SELECT
+  Marca_Produto,
+  COUNT(ID_Produto) AS Qtde_Produtos
+FROM Base.produtos
+GROUP BY Marca_Produto;
+
+-- Qual é a receita total por produto?
+
+SELECT
+  ID_Produto,
+  SUM(Receita_Venda) AS Receita_Total
+FROM Base.pedidos
+GROUP BY ID_Produto;
+
+
+-- GROUP BY + ORDER BY
+
+-- Calcule a quantidade de pedidos efetuados por cliente e retorne o resultado da maior quantidade para a menor:
+
+SELECT
+  ID_Cliente,
+  COUNT(ID_Pedido) AS Qtde_Pedidos
+FROM Base.pedidos
+GROUP BY ID_Cliente
+ORDER BY Qtde_Pedidos DESC;
+
+
+-- GROUP BY + WHERE
+-- Qual foi a receita total gerada pela loja de ID_Loja = 5?
+
+SELECT
+  ID_Loja,
+  SUM(Receita_Venda) AS Receita_Total
+FROM Base.pedidos
+WHERE ID_Loja = 5
+GROUP BY ID_Loja;
+
+
+-- GROUP BY + HAVING
+-- Quais lojas tiveram uma receita total abaixo de 10 milhões?
+
+SELECT
+  ID_Loja,
+  SUM(Receita_Venda) AS Receita_Total
+FROM Base.pedidos
+GROUP BY ID_Loja
+HAVING Receita_Total < 10000000;
+
+
+-- WHERE X HAVING
+-- Quais clientes compraram mais de 120 Notebooks?
+
+SELECT * FROM Base.produtos; -- Notebooks: ID_Produto = 13, 14, 15 e 16
+
+SELECT
+  ID_Cliente,
+  SUM(Qtd_Vendida) AS Qtde_Vendida
+FROM Base.pedidos
+WHERE ID_Produto IN (13, 14, 15, 16) -- Filtra a tabela original (pedidos) antes do agrupamento
+GROUP BY ID_Cliente
+HAVING Qtde_Vendida > 120 -- Filtra o agrupamento (depois que a quantidade vendida para cada cliente já foi calculada)
+ORDER BY Qtde_Vendida;
+
+

@@ -1,0 +1,59 @@
+-- FUNÇÕES DE AGREGAÇÃO
+
+-- COUNT
+-- Conte quantos clientes estão cadastrados. 
+-- Como cada linha da tabela clientes representa um cliente, podemos fazer utilizar o COUNT(*) para verificar a quantidade de clientes:
+
+SELECT
+  COUNT(*) AS QTDE_CLIENTES
+FROM Base.clientes;
+
+-- Ou então podemos escolher uma coluna da tabela clientes para fazer essa contagem, como por exemplo, a coluna ID_Cliente:
+
+SELECT
+  COUNT(ID_Cliente) AS QTDE_CLIENTES
+FROM Base.clientes;
+
+-- Porém, cuidado com isso: se escolhermos uma coluna que possui algum campo NULL, esse campo não será considerado na contagem, o que fará com que o resultado retornado pela função COUNT seja diferente. Veja: sabemos que dos 100 clientes cadastrados, um dele não informou seu telefone. Assim, se fizermos uma contagem da quantidade de clientes considerando a coluna Telefone, o resultado será 99:
+
+SELECT
+  COUNT(Telefone) AS QTDE_CLIENTES
+FROM Base.clientes;
+
+-- COUNT + DISTINCT
+-- Verifique quantas marcas distintas aparecem na tabela produtos:
+
+SELECT
+  COUNT(DISTINCT Marca_Produto) AS QTDE_MARCAS
+FROM Base.produtos;
+
+-- SUM
+-- Calcule a receita total:
+
+SELECT
+  SUM(Receita_Venda) AS RECEITA_TOTAL
+FROM Base.pedidos;
+
+-- MIN
+-- Qual é menor custo unitário de um produto cadastrado na tabela produtos?
+
+SELECT
+  MIN(Custo_Unit) AS CUSTO_MINIMO
+FROM Base.produtos;
+
+-- MAX
+-- Qual é maior custo unitário de um produto cadastrado na tabela produtos?
+
+SELECT
+  MAX(Custo_Unit) AS CUSTO_MAXIMO
+FROM Base.produtos;
+
+-- AVG
+-- Qual é a média da renda anual dos clientes?
+
+SELECT
+  AVG(Renda_Anual) AS MEDIA_RENDA_ANUAL
+FROM Base.clientes;
+
+
+
